@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# Directories and files not to ignore (and also to ignore)
+!.gitignore
+!*/
+
+!AppData.dat
+!DefaultUserData.dat
+
+!Plugins/Make It Great.core.*
+
+!Source/Code/**
+Source/Code/EditorPlugin
+Source/Code/**/bin
+Source/Code/**/obj
+*.suo
+*.csproj.user
+
+!Data/**

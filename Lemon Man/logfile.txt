@@ -1,0 +1,151 @@
+[Core] Msg: Running DualityLauncher with flags: Debugging
+[Core] Msg: Using 'DefaultPluginLoader' to load plugins.
+[Core] Msg: Environment Info: 
+              Current Directory: C:\Users\Roshan\Desktop\Game Development\Repositories\make-it-great\Make It Great
+              Command Line: "C:\Users\Roshan\Desktop\Game Development\Repositories\make-it-great\Make It Great\Source\Code\..\..\DualityLauncher.exe" 
+              Operating System: Microsoft Windows NT 6.2.9200.0 (Windows 8)
+              64 Bit OS: True
+              64 Bit Process: True
+              CLR Version: 4.0.30319.42000
+              Processor Count: 4
+[Core] Msg: Currently Loaded Assemblies:
+              mscorlib 4.0.0.0
+              DualityLauncher 2.2.0.0
+              System.Core 4.0.0.0
+              System 4.0.0.0
+              Duality 2.7.11.0
+              System.Runtime 4.0.0.0
+              System.IO 4.0.0.0
+              System.Reflection 4.0.0.0
+              DualityPrimitives 2.0.0.0
+              System.Collections 4.0.0.0
+              System.Linq 4.0.0.0
+              System.Runtime.Extensions 4.0.0.0
+              System.Globalization 4.0.0.0
+              System.Diagnostics.Debug 4.0.0.0
+[Core] Msg: Plugin Base Directories:
+              Plugins
+[Core] Msg: Available Assembly Paths:
+              Plugins\CamView.editor.dll
+              Plugins\Compatibility.core.dll
+              Plugins\DefaultOpenTKBackend.core.dll
+              Plugins\DefaultOpenTKBackend.editor.dll
+              Plugins\DotNetFrameworkBackend.core.dll
+              Plugins\EditorBase.editor.dll
+              Plugins\GamePlugin.core.dll
+              Plugins\HelpAdvisor.editor.dll
+              Plugins\LogView.editor.dll
+              Plugins\Newtonsoft.Json.dll
+              Plugins\ObjectInspector.editor.dll
+              Plugins\OpenALSoft32.dll
+              Plugins\OpenALSoft64.dll
+              Plugins\PackageManagerFrontend.editor.dll
+              Plugins\ProjectView.editor.dll
+              Plugins\SceneView.editor.dll
+[Core] Msg: Assembly loaded: System.Threading 4.0.0.0
+[Core] Msg: Scanning for core plugins...
+[Core] Msg:   Plugins\Compatibility.core.dll...
+[Core] Msg:     Assembly loaded: Compatibility.core 2.0.1.0
+[Core] Msg:     Assembly loaded: System.Linq.Expressions 4.0.0.0
+[Core] Msg:     Assembly loaded: Anonymously Hosted DynamicMethods Assembly 0.0.0.0
+[Core] Msg:   Plugins\DefaultOpenTKBackend.core.dll...
+[Core] Msg:     Assembly loaded: DefaultOpenTKBackend.core 2.0.10.0
+[Core] Msg:     Assembly loaded: OpenTK 1.1.6.0
+[Core] Msg:   Plugins\DotNetFrameworkBackend.core.dll...
+[Core] Msg:     Assembly loaded: DotNetFrameworkBackend.core 2.1.0.0
+[Core] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Core] Msg: Loading auxiliary libraries...
+[Core] Msg:   Assembly loaded: Newtonsoft.Json 9.0.0.0
+[Core] Msg: Initializing ISystemBackend...
+[Core] Msg:   .Net Framework...
+[Core] Msg: Assembly loaded: System.Xml.ReaderWriter 4.0.0.0
+[Core] Msg: Assembly loaded: System.Xml 4.0.0.0
+[Core] Msg: Assembly loaded: System.Xml.XDocument 4.0.0.0
+[Core] Msg: Assembly loaded: System.Xml.Linq 4.0.0.0
+[Core] Msg: Assembly loaded: System.Text.Encoding 4.0.0.0
+[Core] Msg: Assembly loaded: System.Text.RegularExpressions 4.0.0.0
+[Core] Msg: Assembly loaded: System.Reflection.Extensions 4.0.0.0
+[Core] Msg: Initializing IGraphicsBackend...
+[Core] Msg:   OpenGL 2.1 (OpenTK)...
+[Core] Msg:     Initializing OpenTK...
+[Core] Msg:       Platform Backend: PreferNative
+                  EnableHighResolution: True
+[Core] Msg: Initializing IAudioBackend...
+[Core] Msg:   OpenAL (OpenTK)...
+[Core] Msg:     OpenAL Drivers installed in C:\WINDOWS\system32\OpenAL32.dll
+[Core] Msg:     Available devices:
+                  Generic Software on Speakers / Headphones (Realtek High Definition Audio) (Default)
+[Core] Msg:     Current device: Generic Software
+[Core] Msg:     OpenAL Version: 1.1
+                Vendor: Creative Labs Inc.
+                Renderer: Software
+                Effects: True
+[Core] Msg:     256 sources available
+[Core] Msg: Initializing core plugins...
+[Core] Msg:   Compatibility.core...
+[Core] Msg:   DefaultOpenTKBackend.core...
+[Core] Msg:     Assembly loaded: System.Drawing 4.0.0.0
+[Core] Msg:   DotNetFrameworkBackend.core...
+[Core] Msg:   GamePlugin.core...
+[Core] Msg: DualityApp initialized
+            Debug Mode: True
+            Command line arguments: 
+[Core] Msg: Opening Window...
+[Core] Msg:   Window Specification: 
+                Buffers: 2
+                Samples: 8
+                ColorFormat: 32 (8888)
+                AccumFormat: 64 (16161616)
+                Depth: 24
+                Stencil: 8
+                VSync: Off
+                SwapInterval: 0
+[Core] Msg:   OpenGL Version: 4.3.0 - Build 20.19.15.4444
+              Vendor: Intel
+              Renderer: Intel(R) HD Graphics 4400
+              Shader Version: 4.30 - Build 20.19.15.4444
+[Core] Msg: Initializing default content...
+[Core] Msg:   Assembly loaded: System.Runtime.InteropServices 4.0.0.0
+[Core] Msg:   Assembly loaded: System.Collections.Concurrent 4.0.0.0
+[Core] Msg:   Assembly loaded: System.Threading.Tasks.Parallel 4.0.0.0
+[Core] Msg:   Assembly loaded: NVorbis 0.7.5.0
+[Core] Msg:   ...done!
+[Core] Msg: Assembly loaded: FarseerDuality 4.1.1.0
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Core] Msg:   Assembly loaded: System.Runtime.Serialization.Primitives 4.0.0.0
+[Core] Msg:   Assembly loaded: System.Dynamic.Runtime 4.0.0.0
+[Core] Msg:   Assembly loaded: System.Runtime.Serialization 4.0.0.0
+[Core] Msg:   Assembly loaded: System.ObjectModel 4.0.0.0
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\heldWeapon.Material.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Platform.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Platform.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Platform.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Texture.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Pixmap.res'
+[Core] Msg: Determining OpenGL context capabilities...
+[Core] Msg:   Requested 16 MSAA samples, but got 8 samples instead.
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
+[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
+[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
+[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
+[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
+[Core] Msg: Assembly loaded: Microsoft.VisualStudio.Debugger.Runtime 14.0.0.0
+[Game] Msg: LinearVelocityToSet is (5.00, 0.09)
+[Core] Msg: Assembly loaded: System.Configuration 4.0.0.0
+[Game] Msg: LinearVelocityToSet is (5.00, -0.09)

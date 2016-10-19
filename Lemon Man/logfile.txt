@@ -1,8 +1,8 @@
-[Core] Msg: Running DualityLauncher with flags: Debugging
+[Core] Msg: Running DualityLauncher with flags: RunFromEditor
 [Core] Msg: Using 'DefaultPluginLoader' to load plugins.
 [Core] Msg: Environment Info: 
-              Current Directory: C:\Users\Roshan\Desktop\Game Development\Repositories\make-it-great\Make It Great
-              Command Line: "C:\Users\Roshan\Desktop\Game Development\Repositories\make-it-great\Make It Great\Source\Code\..\..\DualityLauncher.exe" 
+              Current Directory: C:\Users\Roshan\Desktop\Game Development\Repositories\lemon-man\Lemon Man
+              Command Line: "C:\Users\Roshan\Desktop\Game Development\Repositories\lemon-man\Lemon Man\DualityLauncher.exe" editor
               Operating System: Microsoft Windows NT 6.2.9200.0 (Windows 8)
               64 Bit OS: True
               64 Bit Process: True
@@ -89,8 +89,8 @@
 [Core] Msg:   DotNetFrameworkBackend.core...
 [Core] Msg:   GamePlugin.core...
 [Core] Msg: DualityApp initialized
-            Debug Mode: True
-            Command line arguments: 
+            Debug Mode: False
+            Command line arguments: editor
 [Core] Msg: Opening Window...
 [Core] Msg:   Window Specification: 
                 Buffers: 2
@@ -99,8 +99,8 @@
                 AccumFormat: 64 (16161616)
                 Depth: 24
                 Stencil: 8
-                VSync: Off
-                SwapInterval: 0
+                VSync: On
+                SwapInterval: 1
 [Core] Msg:   OpenGL Version: 4.3.0 - Build 20.19.15.4444
               Vendor: Intel
               Renderer: Intel(R) HD Graphics 4400
@@ -113,12 +113,16 @@
 [Core] Msg:   ...done!
 [Core] Msg: Assembly loaded: FarseerDuality 4.1.1.0
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization.Primitives 4.0.0.0
 [Core] Msg:   Assembly loaded: System.Dynamic.Runtime 4.0.0.0
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization 4.0.0.0
 [Core] Msg:   Assembly loaded: System.ObjectModel 4.0.0.0
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\heldWeapon.Material.res'
+[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (0, 0, 0)
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Platform.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Platform.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Platform.Pixmap.res'
@@ -127,25 +131,27 @@
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Texture.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Pixmap.res'
-[Core] Msg: Determining OpenGL context capabilities...
-[Core] Msg:   Requested 16 MSAA samples, but got 8 samples instead.
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
+[Core] Msg: Determining OpenGL context capabilities...
+[Core] Msg:   Requested 16 MSAA samples, but got 8 samples instead.
 [Game] Msg: LinearVelocityToSet is (5.00, 0.17)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -1.899999, -0.1)
 [Game] Msg: LinearVelocityToSet is (5.00, -0.09)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
-[Core] Msg: Assembly loaded: Microsoft.VisualStudio.Debugger.Runtime 14.0.0.0
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -1.899999, -0.1)
 [Game] Msg: LinearVelocityToSet is (5.00, 0.09)
-[Core] Msg: Assembly loaded: System.Configuration 4.0.0.0
-[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -1.899999, -0.1)
+[Game] Msg: LinearVelocityToSet is (5.00, 0.09)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -1.899999, -0.1)
+[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -1.899999, -0.1)
+[Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
+[Core] Msg: Shutting down OpenAL (OpenTK)...
+[Core] Msg: Shutting down .Net Framework...
+[Core] Msg: DualityApp terminated

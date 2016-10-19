@@ -176,46 +176,6 @@
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, 0)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.9, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.899999, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-30.84391, -1.899999, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.09)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.3432, -1.899999, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (1.134068, -1.899998, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.09)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (24.62034, -1.899997, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.9288, -1.899998, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (63.98482, -1.899997, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, 0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (63.98482, -1.899996, -0.1)
-[Game] Msg: LinearVelocityToSet is (5.00, -0.17)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (63.98482, -45.39007, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, 0)
 [Edit] Msg: Saving user data...
 [Core] Msg: Shutting down GLControl (OpenTK)...
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...

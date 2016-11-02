@@ -5,29 +5,25 @@ using Duality.Components.Renderers;
 namespace Player
 {
     /// <summary>
-    /// Does a majority of the calculations for the platformer movement system.
+    ///     Does a majority of the calculations for the platformer movement system.
     /// </summary>
     public class Controller2D : Component, ICmpInitializable
     {
-        private float SkinWidth { get; set; } = 0.015f;
-        private int HorizontalRayCount { get; set; } = 3;
-        private int VerticalRayCount { get; set; } = 3;
+        private Rect bounds;
 
         private CollisionInfo collisions;
 
+        private float horizontalRaySpacing;
+        private RayCastOrigins raycastOrigins;
+        private float verticalRaySpacing;
+        private float SkinWidth { get; } = 0.015f;
+        private int HorizontalRayCount { get; set; } = 3;
+        private int VerticalRayCount { get; set; } = 3;
+
         public CollisionInfo Collisions
         {
-            get
-            {
-                return collisions;
-            }
+            get { return collisions; }
         }
-
-        private float horizontalRaySpacing;
-        private float verticalRaySpacing;
-
-        private Rect bounds;
-        private RayCastOrigins raycastOrigins;
 
         public void OnInit(InitContext context)
         {
@@ -46,40 +42,35 @@ namespace Player
             collisions.Reset();
 
             if (velocity.X != 0.0)
-            {
                 HorizontalCollisions(ref velocity);
-            }
             if (velocity.Y != 0.0)
-            {
                 VerticalCollisions(ref velocity);
-            }
 
             GameObj.Transform.MoveByAbs(velocity);
         }
 
         private void HorizontalCollisions(ref Vector2 velocity)
         {
-            float directionX = MathF.Sign(velocity.X);
-            float rayLength = MathF.Abs(velocity.X) + SkinWidth;
+            var directionX = MathF.Sign(velocity.X);
+            var rayLength = MathF.Abs(velocity.X) + SkinWidth;
 
-            for (int i = 0; i < HorizontalRayCount; i++)
+            for (var i = 0; i < HorizontalRayCount; i++)
             {
-                Vector2 rayOrigin = (directionX == -1) ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
-                rayOrigin -= Vector2.UnitY * (horizontalRaySpacing * i);
+                var rayOrigin = directionX == -1 ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
+                rayOrigin -= Vector2.UnitY*(horizontalRaySpacing*i);
 
                 if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor)
-                {
-                    VisualLog.Default.DrawVector(rayOrigin.X, rayOrigin.Y, 0, directionX * rayLength, 0);
-                }
+                    VisualLog.Default.DrawVector(rayOrigin.X, rayOrigin.Y, 0, directionX*rayLength, 0);
 
                 RayCastCallback raycastCallback = data => 1.0f;
                 RayCastData rayCastData;
 
-                if (RigidBody.RayCast(rayOrigin, rayOrigin + Vector2.UnitX * directionX * rayLength, raycastCallback, out rayCastData))
+                if (RigidBody.RayCast(rayOrigin, rayOrigin + Vector2.UnitX*directionX*rayLength, raycastCallback,
+                    out rayCastData))
                 {
                     var distance = (rayOrigin - rayCastData.Pos).Length;
 
-                    velocity.X = (distance - SkinWidth) * directionX;
+                    velocity.X = (distance - SkinWidth)*directionX;
                     rayLength = distance;
 
                     collisions.right = directionX == 1;
@@ -90,26 +81,25 @@ namespace Player
 
         private void VerticalCollisions(ref Vector2 velocity)
         {
-            float directionY = MathF.Sign(velocity.Y);
-            float rayLength = MathF.Abs(velocity.Y) + SkinWidth;
+            var directionY = MathF.Sign(velocity.Y);
+            var rayLength = MathF.Abs(velocity.Y) + SkinWidth;
 
-            for (int i = 0; i < VerticalRayCount; i++)
+            for (var i = 0; i < VerticalRayCount; i++)
             {
-                Vector2 rayOrigin = (directionY == -1) ? raycastOrigins.topLeft : raycastOrigins.bottomLeft;
-                rayOrigin += Vector2.UnitX * (verticalRaySpacing * i + velocity.X);
+                var rayOrigin = directionY == -1 ? raycastOrigins.topLeft : raycastOrigins.bottomLeft;
+                rayOrigin += Vector2.UnitX*(verticalRaySpacing*i + velocity.X);
 
                 if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor)
-                {
-                    VisualLog.Default.DrawVector(rayOrigin.X, rayOrigin.Y, 0, 0, directionY * rayLength);
-                }
+                    VisualLog.Default.DrawVector(rayOrigin.X, rayOrigin.Y, 0, 0, directionY*rayLength);
 
                 RayCastCallback raycastCallback = data => 1.0f;
                 RayCastData rayCastData;
 
-                if (RigidBody.RayCast(rayOrigin, rayOrigin + Vector2.UnitY * directionY * rayLength, raycastCallback, out rayCastData))
+                if (RigidBody.RayCast(rayOrigin, rayOrigin + Vector2.UnitY*directionY*rayLength, raycastCallback,
+                    out rayCastData))
                 {
                     var distance = (rayOrigin - rayCastData.Pos).Length;
-                    velocity.Y = (distance - SkinWidth) * directionY;
+                    velocity.Y = (distance - SkinWidth)*directionY;
                     rayLength = distance;
 
                     collisions.below = directionY == 1;
@@ -147,7 +137,8 @@ namespace Player
 
         private void CalculateRayCastOrigins()
         {
-            var shrinkedBounds = new Rect(bounds.X + SkinWidth, bounds.Y + SkinWidth, bounds.W - 2 * SkinWidth, bounds.H - 2 * SkinWidth);
+            var shrinkedBounds = new Rect(bounds.X + SkinWidth, bounds.Y + SkinWidth, bounds.W - 2*SkinWidth,
+                bounds.H - 2*SkinWidth);
             raycastOrigins.topLeft = shrinkedBounds.TopLeft;
             raycastOrigins.bottomLeft = shrinkedBounds.BottomLeft;
             raycastOrigins.topRight = shrinkedBounds.TopRight;
@@ -156,13 +147,14 @@ namespace Player
 
         private void CalculateRaySpacing()
         {
-            var shrinkedBounds = new Rect(bounds.X + SkinWidth, bounds.Y + SkinWidth, bounds.W - 2 * SkinWidth, bounds.H - 2 * SkinWidth);
+            var shrinkedBounds = new Rect(bounds.X + SkinWidth, bounds.Y + SkinWidth, bounds.W - 2*SkinWidth,
+                bounds.H - 2*SkinWidth);
 
             HorizontalRayCount = MathF.Clamp(HorizontalRayCount, 2, int.MaxValue);
             VerticalRayCount = MathF.Clamp(VerticalRayCount, 2, int.MaxValue);
 
-            horizontalRaySpacing = shrinkedBounds.H / (HorizontalRayCount - 1);
-            verticalRaySpacing = shrinkedBounds.W / (VerticalRayCount - 1);
+            horizontalRaySpacing = shrinkedBounds.H/(HorizontalRayCount - 1);
+            verticalRaySpacing = shrinkedBounds.W/(VerticalRayCount - 1);
         }
 
         public struct CollisionInfo

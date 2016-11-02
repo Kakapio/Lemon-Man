@@ -73,10 +73,7 @@
             <gameobj dataType="ObjectRef">2511523052</gameobj>
           </item>
           <item dataType="Struct" type="Camera.CameraFollow" id="1051768081">
-            <_x003C_zoomLevel_x003E_k__BackingField dataType="Int">-125</_x003C_zoomLevel_x003E_k__BackingField>
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">2511523052</gameobj>
-            <player dataType="Struct" type="Duality.GameObject" id="787527030">
+            <_x003C_PlayerObject_x003E_k__BackingField dataType="Struct" type="Duality.GameObject" id="787527030">
               <active dataType="Bool">true</active>
               <children dataType="Struct" type="System.Collections.Generic.List`1[[Duality.GameObject]]" id="3740027105">
                 <_items dataType="Array" type="Duality.GameObject[]" id="3062691694" length="4" />
@@ -228,11 +225,11 @@
                             <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                           </item>
                           <item dataType="Struct" type="Behavior.HeldWeapon" id="971760278">
-                            <_x003C_bulletSpawnOffset_x003E_k__BackingField dataType="Struct" type="Duality.Vector3">
+                            <_x003C_BulletSpawnOffset_x003E_k__BackingField dataType="Struct" type="Duality.Vector3">
                               <X dataType="Float">4</X>
-                              <Y dataType="Float">0.1</Y>
+                              <Y dataType="Float">-15</Y>
                               <Z dataType="Float">-0.1</Z>
-                            </_x003C_bulletSpawnOffset_x003E_k__BackingField>
+                            </_x003C_BulletSpawnOffset_x003E_k__BackingField>
                             <active dataType="Bool">true</active>
                             <BulletPrefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
                               <contentPath dataType="String">Data\Prefabs\PlayerBullet.Prefab.res</contentPath>
@@ -393,7 +390,10 @@
               <name dataType="String">Player</name>
               <parent />
               <prefabLink />
-            </player>
+            </_x003C_PlayerObject_x003E_k__BackingField>
+            <_x003C_ZoomLevel_x003E_k__BackingField dataType="Int">-120</_x003C_ZoomLevel_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">2511523052</gameobj>
           </item>
         </_items>
         <_size dataType="Int">4</_size>
@@ -620,7 +620,22 @@
       <name dataType="String">PlayerBullet</name>
       <parent />
       <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="1711831657">
-        <changes />
+        <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="76977620">
+          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="350418148" length="4">
+            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="2426702024">
+                <_items dataType="Array" type="System.Int32[]" id="1005189740"></_items>
+                <_size dataType="Int">0</_size>
+                <_version dataType="Int">1</_version>
+              </childIndex>
+              <componentType dataType="ObjectRef">2606366108</componentType>
+              <prop dataType="MemberInfo" id="1698964190" value="P:Duality.Components.Physics.RigidBody:LinearVelocity" />
+              <val dataType="Struct" type="Duality.Vector2" />
+            </item>
+          </_items>
+          <_size dataType="Int">1</_size>
+          <_version dataType="Int">1</_version>
+        </changes>
         <obj dataType="ObjectRef">295319489</obj>
         <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
           <contentPath dataType="String">Data\Prefabs\PlayerBullet.Prefab.res</contentPath>

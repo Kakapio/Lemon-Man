@@ -1,12 +1,12 @@
 [Core] Msg: Using 'DefaultPluginLoader' to load plugins.
 [Core] Msg: Environment Info: 
-              Current Directory: C:\Users\Roshan\Desktop\Game Development\Repositories\lemon-man\Lemon Man
-              Command Line: "C:\Users\Roshan\Desktop\Game Development\Repositories\lemon-man\Lemon Man\DualityEditor.exe" 
+              Current Directory: D:\Documents\Game Development\Repositories\lemon-man\Lemon Man
+              Command Line: "D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\DualityEditor.exe" 
               Operating System: Microsoft Windows NT 6.2.9200.0 (Windows 8)
               64 Bit OS: True
               64 Bit Process: True
               CLR Version: 4.0.30319.42000
-              Processor Count: 4
+              Processor Count: 8
 [Core] Msg: Currently Loaded Assemblies:
               mscorlib 4.0.0.0
               DualityEditor 2.6.6.0
@@ -24,7 +24,6 @@
               System.Xml.XDocument 4.0.0.0
               WindowsBase 4.0.0.0
               System.ComponentModel.DataAnnotations 4.0.0.0
-              Accessibility 4.0.0.0
               AdamsLair.WinForms 1.1.4.0
               WeifenLuo.WinFormsUI.Docking 2.8.1.0
               System.Configuration 4.0.0.0
@@ -81,9 +80,12 @@
                   EnableHighResolution: False
 [Core] Msg: Initializing IAudioBackend...
 [Core] Msg:   OpenAL (OpenTK)...
-[Core] Msg:     OpenAL Drivers installed in C:\WINDOWS\system32\OpenAL32.dll
+[Core] Msg:     OpenAL Drivers installed in C:\Windows\system32\OpenAL32.dll
 [Core] Msg:     Available devices:
-                  Generic Software on Speakers / Headphones (Realtek High Definition Audio) (Default)
+                  Generic Software on Speakers (Realtek High Definition Audio) (Default)
+                  Generic Software on Realtek HD Audio 2nd output (Realtek High Definition Audio)
+                  Generic Software on Realtek Digital Output(Optical) (Realtek High Definition Audio)
+                  Generic Software on Realtek Digital Output (Realtek High Definition Audio)
 [Core] Msg:     Current device: Generic Software
 [Core] Msg:     OpenAL Version: 1.1
                 Vendor: Creative Labs Inc.
@@ -140,6 +142,7 @@
 [Edit] Msg:     Deserializing layout: 'Duality.Editor.Plugins.ObjectInspector.ObjectInspector'
 [Edit] Msg:     Deserializing layout: 'Duality.Editor.Plugins.HelpAdvisor.HelpAdvisor'
 [Edit] Msg:     Deserializing layout: 'Duality.Editor.Plugins.LogView.LogView'
+[Edit] Msg:     Deserializing layout: 'Duality.Editor.Plugins.CamView.CamView'
 [Edit] Msg:   Loading editor user data...
 [Edit] Msg: Initializing editor plugins...
 [Edit] Msg:   CamView.editor...
@@ -153,7 +156,6 @@
 [Edit] Msg:   SceneView.editor...
 [Core] Msg: Assembly loaded: FarseerDuality 4.1.1.0
 [Core] Msg: Determining OpenGL context capabilities...
-[Core] Msg:   Requested 16 MSAA samples, but got 8 samples instead.
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization.Primitives 4.0.0.0
@@ -176,17 +178,3 @@
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
-[Core] Msg: Assembly loaded: Windows7.DesktopIntegration 1.0.0.0
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, 0)

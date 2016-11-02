@@ -82,7 +82,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">10</_version>
+            <_version dataType="Int">12</_version>
           </shapes>
         </item>
         <item dataType="Struct" type="Behavior.PlayerBullet" id="1391847300">
@@ -239,11 +239,11 @@
                           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                         </item>
                         <item dataType="Struct" type="Behavior.HeldWeapon" id="971760278">
-                          <_x003C_bulletSpawnOffset_x003E_k__BackingField dataType="Struct" type="Duality.Vector3">
+                          <_x003C_BulletSpawnOffset_x003E_k__BackingField dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">4</X>
-                            <Y dataType="Float">0.1</Y>
+                            <Y dataType="Float">-15</Y>
                             <Z dataType="Float">-0.1</Z>
-                          </_x003C_bulletSpawnOffset_x003E_k__BackingField>
+                          </_x003C_BulletSpawnOffset_x003E_k__BackingField>
                           <active dataType="Bool">true</active>
                           <BulletPrefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
                             <contentPath dataType="String">Data\Prefabs\PlayerBullet.Prefab.res</contentPath>
@@ -319,7 +319,7 @@
                               </header>
                               <body />
                             </identifier>
-                            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                             <name dataType="String">WorldManagers</name>
                             <parent />
                             <prefabLink />
@@ -355,7 +355,7 @@
                       </header>
                       <body />
                     </identifier>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                    <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                     <name dataType="String">Weapon</name>
                     <parent />
                     <prefabLink />
@@ -400,7 +400,7 @@
               </header>
               <body />
             </identifier>
-            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
             <name dataType="String">Player</name>
             <parent />
             <prefabLink />

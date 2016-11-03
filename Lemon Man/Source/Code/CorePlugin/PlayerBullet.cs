@@ -59,11 +59,16 @@ namespace Behavior
                 Log.Game.Write("LinearVelocityToSet is {0}", LinearVelocityToSet);
                 Log.Game.Write("The velocity of this bullet is {0}", GameObj.GetComponent<RigidBody>().LinearVelocity);
                 Log.Game.Write("The position of this bullet is {0}", GameObj.Transform.Pos);
+
+                rigidBody.LinearVelocity = LinearVelocityToSet;
+
+                /*
                 if (playerController.facingDirection == FacingDirection.right)
                     //Change bullet direction based on player's direction.
                     rigidBody.LinearVelocity = Vector2.FromAngleLength(transform.Angle, Speed);
                 else if (playerController.facingDirection == FacingDirection.left)
                     rigidBody.LinearVelocity = Vector2.FromAngleLength(transform.Angle, Speed);
+                    */
             }
         }
 

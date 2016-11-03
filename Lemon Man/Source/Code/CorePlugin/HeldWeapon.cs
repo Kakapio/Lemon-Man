@@ -105,6 +105,7 @@ namespace Behavior
 
         private void InstantiateBullet()
         {
+            /*
             var weaponTransform = GameObj.Transform;
             GameObject bullet;
             PlayerBullet bulletScript;
@@ -113,29 +114,29 @@ namespace Behavior
                 float positiveNegativeOffset = MathF.Rnd.Next(0, 2);
                 if (positiveNegativeOffset == 0)
                     positiveNegativeOffset = -1;
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Accuracy) * positiveNegativeOffset);
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Accuracy)*positiveNegativeOffset);
 
                 if (player.GetComponent<PlayerController>().facingDirection == FacingDirection.right)
                 {
                     bullet = bulletPrefab.Res.Instantiate(new Vector3(weaponTransform.Pos.X + BulletSpawnOffset.X,
-                                                                      weaponTransform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
-                                                                      weaponTransform.Angle, .5f);
+                            weaponTransform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
+                        weaponTransform.Angle, .5f);
                     bulletScript = bullet.GetComponent<PlayerBullet>();
-                    bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset) * bulletScript.Speed,
+                    bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset)*bulletScript.Speed,
                         //Adds inaccuracy
-                        MathF.Sin(bulletAngleOffset) * bulletScript.Speed);
+                        MathF.Sin(bulletAngleOffset)*bulletScript.Speed);
 
                     Scene.Current.AddObject(bullet);
                 }
                 else
                 {
                     bullet = bulletPrefab.Res.Instantiate(new Vector3(weaponTransform.Pos.X - BulletSpawnOffset.X,
-                                                                      weaponTransform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
-                                                                      weaponTransform.Angle, .5f);
+                            weaponTransform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
+                        weaponTransform.Angle, .5f);
                     bulletScript = bullet.GetComponent<PlayerBullet>();
-                    bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset) * bulletScript.Speed,
+                    bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset)*bulletScript.Speed,
                         //Adds inaccuracy
-                        MathF.Sin(bulletAngleOffset) * bulletScript.Speed);
+                        MathF.Sin(bulletAngleOffset)*bulletScript.Speed);
 
                     Scene.Current.AddObject(bullet);
                 }
@@ -143,6 +144,30 @@ namespace Behavior
                 var bulletComponent = bullet.GetComponent<PlayerBullet>();
                 bulletComponent.Creator = GameObj; //Tells bullet that it was created by player.
             }
+            */
+            GameObject bullet;
+            PlayerBullet bulletScript;
+            switch (player.GetComponent<PlayerController>().facingDirection)
+            {
+                case FacingDirection.right:
+                    bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X, GameObj.Transform.Pos.Y, -0.1f));
+                    bulletScript = bullet.GetComponent<PlayerBullet>();
+                    bulletScript.LinearVelocityToSet = new Vector2(bulletScript.Speed, 0);
+                    Scene.Current.AddObject(bullet);
+                    break;
+
+                case FacingDirection.left:
+                    bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X, GameObj.Transform.Pos.Y, -0.1f));
+                    bulletScript = bullet.GetComponent<PlayerBullet>();
+                    bulletScript.LinearVelocityToSet = new Vector2(-bulletScript.Speed, 0);
+                    Scene.Current.AddObject(bullet);
+                    break;
+
+                default:
+                    Log.Game.WriteError("Error, player is not facing left or right.");
+                    break;
+            }
+
         }
     }
 }

@@ -12,8 +12,7 @@ namespace Misc
     public class Weapon
     {
         public Weapon(int id, string title, string slug, int burstCount, ProjectileType typeOfProjectile, int rateOfFire,
-            int range,
-            int accuracy)
+                      int range, int accuracy)
         {
             ID = id;
             Title = title;

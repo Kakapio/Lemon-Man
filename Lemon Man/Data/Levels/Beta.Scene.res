@@ -280,7 +280,7 @@
                               <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2188069857">
                                 <_items dataType="Array" type="Duality.Component[]" id="519276910" length="4">
                                   <item dataType="Struct" type="Manager.WeaponDatabaseManager" id="3611639126">
-                                    <_x003C_weaponDatabase_x003E_k__BackingField dataType="ObjectRef">3909605818</_x003C_weaponDatabase_x003E_k__BackingField>
+                                    <_x003C_WeaponDatabase_x003E_k__BackingField dataType="ObjectRef">3909605818</_x003C_WeaponDatabase_x003E_k__BackingField>
                                     <active dataType="Bool">true</active>
                                     <gameobj dataType="ObjectRef">2834260959</gameobj>
                                   </item>
@@ -621,7 +621,22 @@
       <name dataType="String">PlayerBullet</name>
       <parent />
       <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="447950092">
-        <changes />
+        <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1361091000">
+          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1210174572" length="4">
+            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="3823016">
+                <_items dataType="Array" type="System.Int32[]" id="160057004"></_items>
+                <_size dataType="Int">0</_size>
+                <_version dataType="Int">1</_version>
+              </childIndex>
+              <componentType dataType="ObjectRef">687745680</componentType>
+              <prop dataType="MemberInfo" id="703928222" value="P:Behavior.PlayerBullet:Speed" />
+              <val dataType="Float">6</val>
+            </item>
+          </_items>
+          <_size dataType="Int">1</_size>
+          <_version dataType="Int">1</_version>
+        </changes>
         <obj dataType="ObjectRef">789415078</obj>
         <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
           <contentPath dataType="String">Data\Prefabs\PlayerBullet.Prefab.res</contentPath>

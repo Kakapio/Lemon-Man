@@ -32,7 +32,7 @@ namespace Behavior
         private Vector2 weaponOffset = new Vector2(6, 3); //Offset of weapon, relative to the center of the player.
         private RigidBody bulletRigidBody;
 
-        public Vector3 BulletSpawnOffset { get; set; } = new Vector3(4, -15, -0.1f);
+        public Vector3 BulletSpawnOffset { get; set; } = new Vector3(2.5f, 0.6f, -0.1f);
 
         void ICmpInitializable.OnInit(InitContext context)
         {
@@ -42,7 +42,7 @@ namespace Behavior
                 transform = GameObj.GetComponent<Transform>();
                 player = GameObj.ParentScene.FindGameObject<PlayerController>();
                 weaponDatabaseObject = GameObj.ParentScene.FindGameObject<WeaponDatabaseManager>();
-                weaponDatabase = weaponDatabaseObject.GetComponent<WeaponDatabaseManager>().weaponDatabase;
+                weaponDatabase = weaponDatabaseObject.GetComponent<WeaponDatabaseManager>().WeaponDatabase;
                 bulletRigidBody = GameObj.GetComponent<RigidBody>();
                 transform.Pos = new Vector3(0, 0, -0.1f);
                 bulletPrefab = new ContentRef<Prefab>(null, @"Data\Prefabs\PlayerBullet.Prefab.res");
@@ -64,20 +64,22 @@ namespace Behavior
             if (DualityApp.Keyboard.KeyHit(Key.X) && (firingDelayCounter > firingDelay))
             {
                 firingDelayCounter = 0;
-                InstantiateBullet();
+                FireWeapon();
             }
         }
 
         public void ChangeHeldWeapon(int weaponToChangeToID)
         {
-            for (var i = 0; i < weaponDatabase.Count; i++)
-                if (weaponDatabase[i].ID == weaponToChangeToID)
+            foreach (Weapon weapon in weaponDatabase)
+            {
+                if (weapon.ID == weaponToChangeToID)
                 {
-                    heldWeapon = weaponDatabase[i];
+                    heldWeapon = weapon;
                     UpdateHeldWeaponComponents();
                 }
                 else
-                    return; //End search instead of 'continue', which would make it continue using the rest of the code
+                    return;
+            }
         }
 
         private void UpdateHeldWeaponComponents()
@@ -103,7 +105,7 @@ namespace Behavior
             }
         }
 
-        private void InstantiateBullet()
+        private void FireWeapon()
         {
             /*
             var weaponTransform = GameObj.Transform;
@@ -145,29 +147,40 @@ namespace Behavior
                 bulletComponent.Creator = GameObj; //Tells bullet that it was created by player.
             }
             */
-            GameObject bullet;
-            PlayerBullet bulletScript;
-            switch (player.GetComponent<PlayerController>().facingDirection)
+
+            for (var i = 0; i < heldWeapon.BurstCount; i++)
             {
-                case FacingDirection.right:
-                    bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X, GameObj.Transform.Pos.Y, -0.1f));
-                    bulletScript = bullet.GetComponent<PlayerBullet>();
-                    bulletScript.LinearVelocityToSet = new Vector2(bulletScript.Speed, 0);
-                    Scene.Current.AddObject(bullet);
-                    break;
+                GameObject bullet;
+                PlayerBullet bulletScript;
+                float positiveNegativeOffset = MathF.Rnd.Next(0, 2);
+                positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Accuracy) * positiveNegativeOffset);
 
-                case FacingDirection.left:
-                    bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X, GameObj.Transform.Pos.Y, -0.1f));
-                    bulletScript = bullet.GetComponent<PlayerBullet>();
-                    bulletScript.LinearVelocityToSet = new Vector2(-bulletScript.Speed, 0);
-                    Scene.Current.AddObject(bullet);
-                    break;
+                switch (player.GetComponent<PlayerController>().facingDirection)
+                {
+                    case FacingDirection.right:
+                        bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X + BulletSpawnOffset.X,
+                                                                          GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f), 
+                                                                          GameObj.Transform.Angle, 0.5f);
+                        bulletScript = bullet.GetComponent<PlayerBullet>();
+                        bulletScript.LinearVelocityToSet = new Vector2(bulletScript.Speed, 0);
+                        Scene.Current.AddObject(bullet);
+                        break;
 
-                default:
-                    Log.Game.WriteError("Error, player is not facing left or right.");
-                    break;
+                    case FacingDirection.left:
+                        bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X - BulletSpawnOffset.X,
+                                                                          GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
+                                                                          GameObj.Transform.Angle, 0.5f);
+                        bulletScript = bullet.GetComponent<PlayerBullet>();
+                        bulletScript.LinearVelocityToSet = new Vector2(-bulletScript.Speed, 0);
+                        Scene.Current.AddObject(bullet);
+                        break;
+
+                    default:
+                        Log.Game.WriteError("Error, player is not facing left or right.");
+                        break;
+                }
             }
-
         }
     }
 }

@@ -90,7 +90,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">4</_version>
+            <_version dataType="Int">12</_version>
           </shapes>
         </item>
         <item dataType="Struct" type="Behavior.PlayerBullet" id="2985482765">
@@ -302,7 +302,7 @@
                             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2378370529">
                               <_items dataType="Array" type="Duality.Component[]" id="587796846" length="4">
                                 <item dataType="Struct" type="Manager.WeaponDatabaseManager" id="3611639126">
-                                  <_x003C_weaponDatabase_x003E_k__BackingField dataType="ObjectRef">4071027130</_x003C_weaponDatabase_x003E_k__BackingField>
+                                  <_x003C_WeaponDatabase_x003E_k__BackingField dataType="ObjectRef">4071027130</_x003C_WeaponDatabase_x003E_k__BackingField>
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2834260959</gameobj>
                                 </item>
@@ -328,7 +328,7 @@
                               </header>
                               <body />
                             </identifier>
-                            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                             <name dataType="String">WorldManagers</name>
                             <parent />
                             <prefabLink />
@@ -364,7 +364,7 @@
                       </header>
                       <body />
                     </identifier>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                    <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                     <name dataType="String">Weapon</name>
                     <parent />
                     <prefabLink />
@@ -409,13 +409,13 @@
               </header>
               <body />
             </identifier>
-            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
             <name dataType="String">Player</name>
             <parent />
             <prefabLink />
           </_x003C_Creator_x003E_k__BackingField>
           <_x003C_LinearVelocityToSet_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
-          <_x003C_Speed_x003E_k__BackingField dataType="Float">1</_x003C_Speed_x003E_k__BackingField>
+          <_x003C_Speed_x003E_k__BackingField dataType="Float">6</_x003C_Speed_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">4043529840</gameobj>
           <lifetimeCounter dataType="Float">0</lifetimeCounter>

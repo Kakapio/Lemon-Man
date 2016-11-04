@@ -90,92 +90,72 @@ namespace Behavior
 
         private void MoveWeaponWithPlayer()
         {
-            if (player.GetComponent<PlayerController>().facingDirection == FacingDirection.right) //Places weapon sprite
+            switch (player.GetComponent<PlayerController>().facingDirection)
             {
-                //on player, and flips it.
-                GameObj.Transform.Pos = new Vector3(player.Transform.Pos.X + weaponOffset.X,
-                    player.Transform.Pos.Y + 3, -0.1f);
-                spriteRenderer.Flip = SpriteRenderer.FlipMode.None;
-            }
-            else if (player.GetComponent<PlayerController>().facingDirection == FacingDirection.left)
-            {
-                GameObj.Transform.Pos = new Vector3(player.Transform.Pos.X - weaponOffset.X,
-                    player.Transform.Pos.Y + 3, -0.1f);
-                spriteRenderer.Flip = SpriteRenderer.FlipMode.Horizontal;
+                case FacingDirection.right:
+                    //Places weapon sprite on player, and flips it according to facing direction.
+                    GameObj.Transform.Pos = new Vector3(player.Transform.Pos.X + weaponOffset.X,
+                                                        player.Transform.Pos.Y + 3, -0.1f);
+                    spriteRenderer.Flip = SpriteRenderer.FlipMode.None;
+                    break;
+
+                case FacingDirection.left:
+                    //Places weapon sprite on player, and flips it according to facing direction.
+                    GameObj.Transform.Pos = new Vector3(player.Transform.Pos.X - weaponOffset.X,
+                                                        player.Transform.Pos.Y + 3, -0.1f);
+                    spriteRenderer.Flip = SpriteRenderer.FlipMode.Horizontal;
+                    break;
             }
         }
 
+        /// <summary>
+        /// Instantiates correct prefab for heldWeapon.
+        /// </summary>
         private void FireWeapon()
         {
-            /*
-            var weaponTransform = GameObj.Transform;
-            GameObject bullet;
-            PlayerBullet bulletScript;
-            for (var i = 0; i < heldWeapon.BurstCount; i++) //Instantiates correct amount of bullets
-            {
-                float positiveNegativeOffset = MathF.Rnd.Next(0, 2);
-                if (positiveNegativeOffset == 0)
-                    positiveNegativeOffset = -1;
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Accuracy)*positiveNegativeOffset);
-
-                if (player.GetComponent<PlayerController>().facingDirection == FacingDirection.right)
-                {
-                    bullet = bulletPrefab.Res.Instantiate(new Vector3(weaponTransform.Pos.X + BulletSpawnOffset.X,
-                            weaponTransform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
-                        weaponTransform.Angle, .5f);
-                    bulletScript = bullet.GetComponent<PlayerBullet>();
-                    bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset)*bulletScript.Speed,
-                        //Adds inaccuracy
-                        MathF.Sin(bulletAngleOffset)*bulletScript.Speed);
-
-                    Scene.Current.AddObject(bullet);
-                }
-                else
-                {
-                    bullet = bulletPrefab.Res.Instantiate(new Vector3(weaponTransform.Pos.X - BulletSpawnOffset.X,
-                            weaponTransform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
-                        weaponTransform.Angle, .5f);
-                    bulletScript = bullet.GetComponent<PlayerBullet>();
-                    bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset)*bulletScript.Speed,
-                        //Adds inaccuracy
-                        MathF.Sin(bulletAngleOffset)*bulletScript.Speed);
-
-                    Scene.Current.AddObject(bullet);
-                }
-
-                var bulletComponent = bullet.GetComponent<PlayerBullet>();
-                bulletComponent.Creator = GameObj; //Tells bullet that it was created by player.
-            }
-            */
-
             for (var i = 0; i < heldWeapon.BurstCount; i++)
             {
                 GameObject bullet;
                 PlayerBullet bulletScript;
-                int positiveNegativeOffset = MathF.Rnd.Next(0, 2);
+                var positiveNegativeOffset = MathF.Rnd.Next(0, 2); //Generate random value 0 or 1
                 positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Inaccuracy) * positiveNegativeOffset);
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
 
+                /*switch (heldWeapon.TypeOfProjectile)
+                {
+                    case ProjectileType.bullet:
+                        break;
+                }
+                */
+                //Checks which direction player is facing, adjusting prefab values accordingly.
                 switch (player.GetComponent<PlayerController>().facingDirection)
                 {
                     case FacingDirection.right:
                         bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X + BulletSpawnOffset.X,
                                                                           GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f), 
                                                                           GameObj.Transform.Angle, 0.5f);
+
                         bulletScript = bullet.GetComponent<PlayerBullet>();
+
                         bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset) * bulletScript.Speed,
                                                                        MathF.Sin(bulletAngleOffset) * bulletScript.Speed);
+
                         Scene.Current.AddObject(bullet);
+                        bullet.GetComponent<PlayerBullet>().Creator = GameObj;
                         break;
 
                     case FacingDirection.left:
                         bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X - BulletSpawnOffset.X,
                                                                           GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
                                                                           GameObj.Transform.Angle, 0.5f);
+
                         bulletScript = bullet.GetComponent<PlayerBullet>();
+
                         bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset) * bulletScript.Speed * -1,
                                                                        MathF.Sin(bulletAngleOffset) * bulletScript.Speed);
+
                         Scene.Current.AddObject(bullet);
+                        bullet.GetComponent<PlayerBullet>().Creator = GameObj;
                         break;
 
                     default:

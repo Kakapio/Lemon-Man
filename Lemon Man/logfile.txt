@@ -140,6 +140,3 @@
 [Core] Msg: Determining OpenGL context capabilities...
 [Core] Msg: Assembly loaded: Microsoft.VisualStudio.Debugger.Runtime 14.0.0.0
 [Core] Msg: Assembly loaded: System.Configuration 4.0.0.0
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-37.50034, -17, -0.1)

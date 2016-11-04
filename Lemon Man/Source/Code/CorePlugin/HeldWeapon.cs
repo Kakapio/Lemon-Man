@@ -32,7 +32,7 @@ namespace Behavior
         private Vector2 weaponOffset = new Vector2(6, 3); //Offset of weapon, relative to the center of the player.
         private RigidBody bulletRigidBody;
 
-        public Vector3 BulletSpawnOffset { get; set; } = new Vector3(2.5f, 0.6f, -0.1f);
+        private Vector3 BulletSpawnOffset = new Vector3(4, -0.6f, -0.1f);
 
         void ICmpInitializable.OnInit(InitContext context)
         {

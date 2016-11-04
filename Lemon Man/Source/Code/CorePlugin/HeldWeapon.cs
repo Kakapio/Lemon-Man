@@ -152,9 +152,9 @@ namespace Behavior
             {
                 GameObject bullet;
                 PlayerBullet bulletScript;
-                float positiveNegativeOffset = MathF.Rnd.Next(0, 2);
+                int positiveNegativeOffset = MathF.Rnd.Next(0, 2);
                 positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Accuracy) * positiveNegativeOffset);
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Inaccuracy) * positiveNegativeOffset);
 
                 switch (player.GetComponent<PlayerController>().facingDirection)
                 {
@@ -163,7 +163,8 @@ namespace Behavior
                                                                           GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f), 
                                                                           GameObj.Transform.Angle, 0.5f);
                         bulletScript = bullet.GetComponent<PlayerBullet>();
-                        bulletScript.LinearVelocityToSet = new Vector2(bulletScript.Speed, 0);
+                        bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset) * bulletScript.Speed,
+                                                                       MathF.Sin(bulletAngleOffset) * bulletScript.Speed);
                         Scene.Current.AddObject(bullet);
                         break;
 
@@ -172,7 +173,8 @@ namespace Behavior
                                                                           GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
                                                                           GameObj.Transform.Angle, 0.5f);
                         bulletScript = bullet.GetComponent<PlayerBullet>();
-                        bulletScript.LinearVelocityToSet = new Vector2(-bulletScript.Speed, 0);
+                        bulletScript.LinearVelocityToSet = new Vector2(MathF.Cos(bulletAngleOffset) * bulletScript.Speed * -1,
+                                                                       MathF.Sin(bulletAngleOffset) * bulletScript.Speed);
                         Scene.Current.AddObject(bullet);
                         break;
 

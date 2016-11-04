@@ -73,3 +73,4 @@ D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CoreP
 D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\bin\Debug\FarseerDuality.xml
 D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\obj\Debug\GamePlugin.core.dll
 D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\obj\Debug\GamePlugin.core.pdb
+D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\obj\Debug\CorePlugin.csprojResolveAssemblyReference.cache

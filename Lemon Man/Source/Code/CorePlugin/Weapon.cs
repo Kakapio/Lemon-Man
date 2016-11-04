@@ -12,7 +12,7 @@ namespace Misc
     public class Weapon
     {
         public Weapon(int id, string title, string slug, int burstCount, ProjectileType typeOfProjectile, int rateOfFire,
-                      int range, int accuracy)
+                      int range, int inaccuracy)
         {
             ID = id;
             Title = title;
@@ -22,7 +22,7 @@ namespace Misc
             TypeOfProjectile = typeOfProjectile;
             RateOfFire = rateOfFire;
             Range = range;
-            Accuracy = accuracy;
+            Inaccuracy = inaccuracy;
         }
 
         public int ID { get; private set; }
@@ -34,6 +34,6 @@ namespace Misc
         public ProjectileType TypeOfProjectile { get; private set; }
         public int RateOfFire { get; private set; }
         public int Range { get; private set; }
-        public int Accuracy { get; private set; }
+        public int Inaccuracy { get; private set; }
     }
 }

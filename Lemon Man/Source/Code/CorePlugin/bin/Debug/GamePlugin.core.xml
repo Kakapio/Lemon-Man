@@ -18,6 +18,11 @@
                 item.
             </summary>
         </member>
+        <member name="M:Behavior.HeldWeapon.FireWeapon">
+            <summary>
+            Instantiates correct prefab for heldWeapon.
+            </summary>
+        </member>
         <member name="T:Camera.CameraFollow">
             <summary>
                 A component that causes the object it is placed on to follow a target.

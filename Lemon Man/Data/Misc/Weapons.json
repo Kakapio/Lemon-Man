@@ -5,7 +5,7 @@
     "Slug": "goldenRevolver",
     "BurstCount": 1,
     "TypeOfProjectile": "bullet",
-    "RateOfFire": 2,
+    "RateOfFire": 3,
     "Range": 1,
     "Inaccuracy": 3
   },

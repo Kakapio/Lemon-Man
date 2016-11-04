@@ -119,7 +119,7 @@ namespace Behavior
                 PlayerBullet bulletScript;
                 var positiveNegativeOffset = MathF.Rnd.Next(0, 2); //Generate random value 0 or 1
                 positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(1, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(0, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
 
                 /*switch (heldWeapon.TypeOfProjectile)
                 {

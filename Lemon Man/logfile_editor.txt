@@ -157,16 +157,12 @@
 [Core] Msg: Assembly loaded: FarseerDuality 4.1.1.0
 [Core] Msg: Determining OpenGL context capabilities...
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization.Primitives 4.0.0.0
 [Core] Msg:   Assembly loaded: System.Dynamic.Runtime 4.0.0.0
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization 4.0.0.0
 [Core] Msg:   Assembly loaded: System.ObjectModel 4.0.0.0
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\heldWeapon.Material.res'
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Platform.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Platform.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Platform.Pixmap.res'
@@ -175,89 +171,6 @@
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Texture.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (15.06718, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -28.12228, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -45.40166, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -41.63187, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.03885, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (7.523379, -1.999999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (12.02706, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (29.54989, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (58.11469, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.58838, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-11.51374, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (41.05941, -28.94696, -0.1)
-[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-16.04684, -1.999999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
 [Core] Msg: Assembly loaded: Windows7.DesktopIntegration 1.0.0.0
 [Edit] Msg: Saving data...
 [Edit] Msg: Reloading core plugins...
@@ -267,1630 +180,285 @@
 [Edit] Msg:   GamePlugin.core...
 [Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
 [Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (15.01981, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (15.01981, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (15.01981, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-2.992538, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-2.992538, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-2.992538, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-26.04836, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-16.53285, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-2.01417, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.62235, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (23.31707, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-0.2188931, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-16.24538, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-30.7849, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-7.736511, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (18.31099, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (34.3457, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (48.85876, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (72.39993, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (34.83636, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (7.788589, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (2.283712, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (2.283712, -1.999999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -6.787009, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-6, -2, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (18.01943, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (24.03675, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (40.57601, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (66.44736, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (46.92292, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Wrn: Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn: Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-5.77, 0.00)
-[Game] Msg: The position of this bullet is (-8.5, -2.6, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Core] Wrn:     Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:     Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-24.54173, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-46.07283, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-46.07283, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-13.53662, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (13.46254, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (17.98581, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (33.01371, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (59.56211, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (86.59898, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (60.07537, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (38.53407, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (15.99143, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-52.13688, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-52.13688, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.11797, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.11797, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.11797, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.11797, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.11797, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-39.57055, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-48.57781, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-48.57781, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-48.57781, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-53.08841, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-30.5688, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-15.05091, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-15.05091, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-13.02899, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-7.033405, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-42.56226, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-58.58271, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-58.58271, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-58.58271, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-58.58271, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-58.58271, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-27.0423, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Wrn: Can't parse enum value 'Bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn: Can't parse enum value 'Bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-5.00, 0.00)
-[Game] Msg: The position of this bullet is (-206.5273, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.01, 0.00)
-[Game] Msg: The position of this bullet is (-1003.95, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.10, 0.00)
-[Game] Msg: The position of this bullet is (-986.4139, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.20, 0.00)
-[Game] Msg: The position of this bullet is (-965.8494, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.30, 0.00)
-[Game] Msg: The position of this bullet is (-946.107, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.39, 0.00)
-[Game] Msg: The position of this bullet is (-927.0516, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.49, 0.00)
-[Game] Msg: The position of this bullet is (-907.8035, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.60, 0.00)
-[Game] Msg: The position of this bullet is (-885.9644, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.73, 0.00)
-[Game] Msg: The position of this bullet is (-860.3136, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.87, 0.00)
-[Game] Msg: The position of this bullet is (-830.9944, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.03, 0.00)
-[Game] Msg: The position of this bullet is (-799.9555, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.19, 0.00)
-[Game] Msg: The position of this bullet is (-768.483, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.36, 0.00)
-[Game] Msg: The position of this bullet is (-734.386, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.54, 0.00)
-[Game] Msg: The position of this bullet is (-697.6127, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.73, 0.00)
-[Game] Msg: The position of this bullet is (-660.2853, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.94, 0.00)
-[Game] Msg: The position of this bullet is (-617.7117, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-3.17, 0.00)
-[Game] Msg: The position of this bullet is (-571.8487, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-3.43, 0.00)
-[Game] Msg: The position of this bullet is (-520.9777, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-3.70, 0.00)
-[Game] Msg: The position of this bullet is (-467.4879, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-4.00, 0.00)
-[Game] Msg: The position of this bullet is (-406.5051, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-4.31, 0.00)
-[Game] Msg: The position of this bullet is (-344.1623, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-4.64, 0.00)
-[Game] Msg: The position of this bullet is (-277.38, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-5.44, 0.00)
-[Game] Msg: The position of this bullet is (-119.4887, 13, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-3.40, 0.00)
-[Game] Msg: The position of this bullet is (-526.488, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-3.75, 0.00)
-[Game] Msg: The position of this bullet is (-456.6263, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-4.02, 0.00)
-[Game] Msg: The position of this bullet is (-403.1842, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-4.30, 0.00)
-[Game] Msg: The position of this bullet is (-347.7792, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-4.87, 0.00)
-[Game] Msg: The position of this bullet is (-233.5576, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-5.18, 0.00)
-[Game] Msg: The position of this bullet is (-172.5443, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -17, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.53551, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.53551, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.53551, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.53551, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.53551, 13, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.28, 0.00)
-[Game] Msg: The position of this bullet is (-950.1691, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.42, 0.00)
-[Game] Msg: The position of this bullet is (-922.0154, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.51, 0.00)
-[Game] Msg: The position of this bullet is (-904.0787, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.67, 0.00)
-[Game] Msg: The position of this bullet is (-872.3407, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-1.83, 0.00)
-[Game] Msg: The position of this bullet is (-839.5344, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (-2.01, 0.00)
-[Game] Msg: The position of this bullet is (-803.4817, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (2.89, 0.00)
-[Game] Msg: The position of this bullet is (639.1759, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (3.27, 0.00)
-[Game] Msg: The position of this bullet is (563.5883, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (3.67, 0.00)
-[Game] Msg: The position of this bullet is (482.6854, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (4.54, 0.00)
-[Game] Msg: The position of this bullet is (308.4904, 13, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (5.34, 0.00)
-[Game] Msg: The position of this bullet is (20.3, -2.6, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (19.59042, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (45.0809, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (71.63471, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (58.62925, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (30.0656, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (29.07695, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (29.07695, -1.399999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (29.07695, -1.399999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Edit] Msg: Saving data...
-[Edit] Msg: Reloading core plugins...
-[Edit] Msg:   Plugins\GamePlugin.core.dll...
-[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
-[Edit] Msg: Initializing reloaded core plugins...
-[Edit] Msg:   GamePlugin.core...
-[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
-[Edit] Msg: Restoring data...
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -7.155559, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599998, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-19.52904, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-37.06601, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-21.59876, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0.908061, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (23.43439, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (44.47395, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (28.96402, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (8.429602, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10.65181, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-25.62646, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-17.62768, -2.6, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-0.5991039, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (33.07845, -37.08065, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (61.11329, -39.77315, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (71.61581, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (71.61581, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (25.55191, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-4.00299, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-32.06138, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-61.60546, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-80.1466, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-48.60781, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-25.55039, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-7.522438, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (13.0061, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-15.02633, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-7.025314, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (8.502604, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-14.51246, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-33.55834, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-40.55973, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-40.55973, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-40.55973, -2.599999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-23.54262, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-40.57188, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-78.64411, -37.76825, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-47.60065, -46.81546, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-18.04568, -5.761877, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (8.511611, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (54.14802, -45.81351, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (78.13238, -31.52976, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (56.60952, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (40.08716, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-2.003377, -42.96374, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-33.57766, -26.18169, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-57.59629, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-50.06429, -22.03885, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-35.57261, -42.95441, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10.03365, -35.99523, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (14.52055, -2.599998, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (40.57171, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (58.10585, -18.76361, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (57.61326, -46.53441, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (42.55992, -32.8517, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (27.03431, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (16.52589, -2.599999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (0.00, 0.00)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (0, 0, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-28.54138, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-11.00838, -37.79576, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (14.00994, -42.22935, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (29.5267, -2.599999, -0.1)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Edit] Msg: Saving data...
@@ -1904,157 +472,463 @@
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 2!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 2!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 2!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.6, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-18.01854, -2.599998, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-40.07372, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-75.63403, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-83.63432, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-43.58593, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-20.05131, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (3.500668, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (30.54075, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (54.59767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.6, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.6, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (73.62767, -2.599999, -0.1)
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.600001, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599998, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (20.02172, -2.599999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.99, 0.31)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
 [Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (-5.03, -3.27)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599998, -0.1)
-[Game] Msg: LinearVelocityToSet is (-4.91, 3.44)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.44, -2.54)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.48, 2.44)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.91, 1.04)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.99, -0.42)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.89, 1.14)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.6, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, 0.00)
+[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
@@ -2070,70 +944,176 @@
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: positiveNegativeOffset's value is 0!
 [Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.21)
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.10)
+[Game] Msg: positiveNegativeOffset's value is 0!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
+[Game] Msg: positiveNegativeOffset's value is 1!
+[Game] Msg: LinearVelocityToSet is (-6.00, 0.00)
 [Game] Msg: The velocity of this bullet is (0.00, 0.00)
 [Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599998, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, -0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (19.01442, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (19.01442, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, -0.10)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (19.01442, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (19.01442, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (6.00, 0.21)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (19.01442, -2.599999, -0.1)
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Game] Msg: Gravity: 444.4445, jump velocity: 200
-[Game] Msg: LinearVelocityToSet is (-5.64, 2.05)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.48, 2.44)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.99, -0.31)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599998, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.82, -1.45)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.97, -0.63)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
-[Game] Msg: LinearVelocityToSet is (-5.56, -2.25)
-[Game] Msg: The velocity of this bullet is (0.00, 0.00)
-[Game] Msg: The position of this bullet is (-10, -2.599999, -0.1)
+[Edit] ERR: An error occurred: NullReferenceException: Object reference not set to an instance of an object.
+            CallStack:
+               at Behavior.HeldWeapon.UpdateHeldWeaponComponents() in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 85
+               at Behavior.HeldWeapon.Duality.ICmpUpdatable.OnUpdate() in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 61
+               at Duality.Resources.Scene.UpdateComponents[T](Action`1 updateAction) in c:\projects\duality\Duality\Resources\Scene.cs:line 600
+               at Duality.Resources.Scene.<Update>b__9() in c:\projects\duality\Duality\Resources\Scene.cs:line 502
+               at Duality.DualityApp.EditorGuard(Action action) in c:\projects\duality\Duality\DualityApp.cs:line 983
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] ERR: An error occurred: NullReferenceException: Object reference not set to an instance of an object.
+            CallStack:
+               at Behavior.HeldWeapon.FireWeapon() in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 113
+               at Behavior.HeldWeapon.Duality.ICmpUpdatable.OnUpdate() in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 64
+               at Duality.Resources.Scene.UpdateComponents[T](Action`1 updateAction) in c:\projects\duality\Duality\Resources\Scene.cs:line 600
+               at Duality.Resources.Scene.<Update>b__9() in c:\projects\duality\Duality\Resources\Scene.cs:line 502
+               at Duality.DualityApp.EditorGuard(Action action) in c:\projects\duality\Duality\DualityApp.cs:line 983
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] ERR: An error occurred: NullReferenceException: Object reference not set to an instance of an object.
+            CallStack:
+               at Behavior.HeldWeapon.FireWeapon() in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 113
+               at Behavior.HeldWeapon.Duality.ICmpUpdatable.OnUpdate() in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 64
+               at Duality.Resources.Scene.UpdateComponents[T](Action`1 updateAction) in c:\projects\duality\Duality\Resources\Scene.cs:line 600
+               at Duality.Resources.Scene.<Update>b__9() in c:\projects\duality\Duality\Resources\Scene.cs:line 502
+               at Duality.DualityApp.EditorGuard(Action action) in c:\projects\duality\Duality\DualityApp.cs:line 983
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] ERR: An error occurred: NullReferenceException: Object reference not set to an instance of an object.
+            CallStack:
+               at Behavior.HeldWeapon.Duality.ICmpInitializable.OnInit(InitContext context) in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 50
+               at Duality.GameObject.IterateComponents[T](Action`1 forEach, Predicate`1 where) in c:\projects\duality\Duality\GameObject.cs:line 675
+               at Duality.Resources.Scene.<OnEntered>b__2() in c:\projects\duality\Duality\Resources\Scene.cs:line 264
+               at Duality.DualityApp.EditorGuard(Action action) in c:\projects\duality\Duality\DualityApp.cs:line 983
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Game] Msg: HeldWeapon's burst count is: 5
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] ERR: An error occurred: NullReferenceException: Object reference not set to an instance of an object.
+            CallStack:
+               at Behavior.HeldWeapon.Duality.ICmpInitializable.OnInit(InitContext context) in D:\Documents\Game Development\Repositories\lemon-man\Lemon Man\Source\Code\CorePlugin\HeldWeapon.cs:line 50
+               at Duality.GameObject.IterateComponents[T](Action`1 forEach, Predicate`1 where) in c:\projects\duality\Duality\GameObject.cs:line 675
+               at Duality.Resources.Scene.<OnEntered>b__2() in c:\projects\duality\Duality\Resources\Scene.cs:line 264
+               at Duality.DualityApp.EditorGuard(Action action) in c:\projects\duality\Duality\DualityApp.cs:line 983
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
 [Game] Msg: Gravity: 444.4445, jump velocity: 200

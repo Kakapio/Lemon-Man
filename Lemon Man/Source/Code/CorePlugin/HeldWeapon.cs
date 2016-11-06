@@ -30,25 +30,23 @@ namespace Behavior
         private List<Weapon> weaponDatabase;
         private GameObject weaponDatabaseObject;
         private Vector2 weaponOffset = new Vector2(6, 3); //Offset of weapon, relative to the center of the player.
-        private RigidBody bulletRigidBody;
-
         private Vector3 BulletSpawnOffset = new Vector3(4, -0.6f, -0.1f);
 
         void ICmpInitializable.OnInit(InitContext context)
         {
             if (context == InitContext.Activate)
             {
+                heldWeapon = null;
                 spriteRenderer = GameObj.GetComponent<SpriteRenderer>();
                 transform = GameObj.GetComponent<Transform>();
                 player = GameObj.ParentScene.FindGameObject<PlayerController>();
                 weaponDatabaseObject = GameObj.ParentScene.FindGameObject<WeaponDatabaseManager>();
                 weaponDatabase = weaponDatabaseObject.GetComponent<WeaponDatabaseManager>().WeaponDatabase;
-                bulletRigidBody = GameObj.GetComponent<RigidBody>();
                 transform.Pos = new Vector3(0, 0, -0.1f);
                 bulletPrefab = new ContentRef<Prefab>(null, @"Data\Prefabs\PlayerBullet.Prefab.res");
                 firingDelayCounter = 0f;
                 spriteRenderer.SharedMaterial.Res.MainTexture = null;
-                ChangeHeldWeapon(0);
+                ChangeHeldWeapon(1);
             }
         }
 
@@ -60,7 +58,6 @@ namespace Behavior
         {
             firingDelayCounter += Time.MsPFMult * Time.TimeMult;
             MoveWeaponWithPlayer();
-            UpdateHeldWeaponComponents();
             if (DualityApp.Keyboard.KeyHit(Key.X) && (firingDelayCounter > firingDelay))
             {
                 firingDelayCounter = 0;
@@ -78,14 +75,14 @@ namespace Behavior
                     UpdateHeldWeaponComponents();
                 }
                 else
-                    return;
+                    continue;
             }
         }
 
         private void UpdateHeldWeaponComponents()
         {
             spriteRenderer.SharedMaterial.Res.MainTexture = heldWeapon.Sprite;
-            firingDelay = heldWeapon.RateOfFire*100f;
+            firingDelay = heldWeapon.RateOfFire * 100f;
         }
 
         private void MoveWeaponWithPlayer()
@@ -118,15 +115,16 @@ namespace Behavior
                 GameObject bullet;
                 PlayerBullet bulletScript;
                 var positiveNegativeOffset = MathF.Rnd.Next(0, 2); //Generate random value 0 or 1
+                Log.Game.Write("positiveNegativeOffset's value is {0}!", positiveNegativeOffset);
                 positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.Next(0, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.NextFloat(0, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
 
                 /*switch (heldWeapon.TypeOfProjectile)
                 {
                     case ProjectileType.bullet:
                         break;
-                }
-                */
+                }*/
+
                 //Checks which direction player is facing, adjusting prefab values accordingly.
                 switch (player.GetComponent<PlayerController>().facingDirection)
                 {

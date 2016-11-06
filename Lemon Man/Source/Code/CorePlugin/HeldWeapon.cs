@@ -20,7 +20,7 @@ namespace Behavior
     [RequiredComponent(typeof(Transform))]
     public class HeldWeapon : Component, ICmpUpdatable, ICmpInitializable
     {
-        private ContentRef<Prefab> bulletPrefab;
+        private ContentRef<Prefab> prefabToBeFired;
         private float firingDelay;
         private float firingDelayCounter;
         private Weapon heldWeapon;
@@ -43,7 +43,7 @@ namespace Behavior
                 weaponDatabaseObject = GameObj.ParentScene.FindGameObject<WeaponDatabaseManager>();
                 weaponDatabase = weaponDatabaseObject.GetComponent<WeaponDatabaseManager>().WeaponDatabase;
                 transform.Pos = new Vector3(0, 0, -0.1f);
-                bulletPrefab = new ContentRef<Prefab>(null, @"Data\Prefabs\PlayerBullet.Prefab.res");
+                prefabToBeFired = new ContentRef<Prefab>(null, @"Data\Prefabs\PlayerBullet.Prefab.res");
                 firingDelayCounter = 0f;
                 spriteRenderer.SharedMaterial.Res.MainTexture = null;
                 ChangeHeldWeapon(1);
@@ -115,7 +115,6 @@ namespace Behavior
                 GameObject bullet;
                 PlayerBullet bulletScript;
                 var positiveNegativeOffset = MathF.Rnd.Next(0, 2); //Generate random value 0 or 1
-                Log.Game.Write("positiveNegativeOffset's value is {0}!", positiveNegativeOffset);
                 positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
                 var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.NextFloat(0, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
 
@@ -129,7 +128,7 @@ namespace Behavior
                 switch (player.GetComponent<PlayerController>().facingDirection)
                 {
                     case FacingDirection.right:
-                        bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X + BulletSpawnOffset.X,
+                        bullet = prefabToBeFired.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X + BulletSpawnOffset.X,
                                                                           GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f), 
                                                                           GameObj.Transform.Angle, 0.5f);
 
@@ -143,7 +142,7 @@ namespace Behavior
                         break;
 
                     case FacingDirection.left:
-                        bullet = bulletPrefab.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X - BulletSpawnOffset.X,
+                        bullet = prefabToBeFired.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X - BulletSpawnOffset.X,
                                                                           GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
                                                                           GameObj.Transform.Angle, 0.5f);
 

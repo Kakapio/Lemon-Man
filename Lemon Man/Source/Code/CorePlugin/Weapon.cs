@@ -1,18 +1,24 @@
 ﻿using Duality;
 using Duality.Resources;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System.Runtime.Serialization;
 
 namespace Misc
 {
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum ProjectileType
     {
-        bullet,
-        grenade
+        [EnumMember(Value = "bullet")]
+        Bullet,
+        [EnumMember(Value = "grenade")]
+        Grenade
     }
 
     public class Weapon
     {
         public Weapon(int id, string title, string slug, int burstCount, ProjectileType typeOfProjectile, int rateOfFire,
-                      int range, int inaccuracy)
+                      int inaccuracy)
         {
             ID = id;
             Title = title;
@@ -21,19 +27,17 @@ namespace Misc
             BurstCount = burstCount;
             TypeOfProjectile = typeOfProjectile;
             RateOfFire = rateOfFire;
-            Range = range;
             Inaccuracy = inaccuracy;
         }
 
         public int ID { get; private set; }
         public string Title { get; private set; }
         public string Slug { get; private set; }
-        public ContentRef<Texture> Sprite { get; private set; }
         //Load using slug and by placing all sprites in one folder
+        public ContentRef<Texture> Sprite { get; private set; }
         public int BurstCount { get; private set; }
         public ProjectileType TypeOfProjectile { get; private set; }
         public int RateOfFire { get; private set; }
-        public int Range { get; private set; }
         public int Inaccuracy { get; private set; }
     }
 }

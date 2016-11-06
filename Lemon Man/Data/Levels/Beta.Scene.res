@@ -249,7 +249,7 @@
                                 <contentPath dataType="String">Data\Sprites &amp; Spritesheets\Weapons\goldenRevolver.Texture.res</contentPath>
                               </_x003C_Sprite_x003E_k__BackingField>
                               <_x003C_Title_x003E_k__BackingField dataType="String">Golden Revolver</_x003C_Title_x003E_k__BackingField>
-                              <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="bullet" value="0" />
+                              <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="Bullet" value="0" />
                             </heldWeapon>
                             <player dataType="ObjectRef">787527030</player>
                             <spriteRenderer dataType="ObjectRef">2985656811</spriteRenderer>
@@ -268,7 +268,7 @@
                                     <contentPath dataType="String">Data\Sprites &amp; Spritesheets\Weapons\shotgun.Texture.res</contentPath>
                                   </_x003C_Sprite_x003E_k__BackingField>
                                   <_x003C_Title_x003E_k__BackingField dataType="String">Shotgun</_x003C_Title_x003E_k__BackingField>
-                                  <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="bullet" value="0" />
+                                  <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="Bullet" value="0" />
                                 </item>
                               </_items>
                               <_size dataType="Int">2</_size>

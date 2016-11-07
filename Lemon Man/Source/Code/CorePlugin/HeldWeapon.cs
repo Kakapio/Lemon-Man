@@ -102,6 +102,10 @@ namespace Behavior
                                                         player.Transform.Pos.Y + 3, -0.1f);
                     spriteRenderer.Flip = SpriteRenderer.FlipMode.Horizontal;
                     break;
+
+                default:
+                    Log.Game.WriteError("Error, player is not facing left or right.");
+                    break;
             }
         }
 

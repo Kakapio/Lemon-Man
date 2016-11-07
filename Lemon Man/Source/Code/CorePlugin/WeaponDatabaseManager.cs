@@ -33,7 +33,7 @@ namespace Manager
                     var json = r.ReadToEnd(); //Reads 'r' and its stream (s) to the end of the file.
                     WeaponDatabase = JsonConvert.DeserializeObject<List<Weapon>>(json);
                         //Json.NET magic to place items from file
-                } //into list.
+                }       //into list.
             }
         }
     }

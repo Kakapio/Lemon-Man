@@ -1,4 +1,5 @@
-﻿using Duality;
+﻿using System.Collections.Generic;
+using Duality;
 using Duality.Components;
 using Duality.Components.Physics;
 using Duality.Components.Renderers;
@@ -21,6 +22,7 @@ namespace Behavior
         private PlayerController playerController;
         private RigidBody rigidBody;
         private Transform transform;
+        private IEnumerable<GameObject> entitiesBeingShot;
 
         public float Speed { get; set; } = 1;
         public Vector2 LinearVelocityToSet { get; set; }
@@ -35,6 +37,11 @@ namespace Behavior
             //We cast to RigidBodyCollisionEventArgs to get access to the info about the shapes involved.
             var rigidBodyArgs = args as RigidBodyCollisionEventArgs;
             if ((rigidBodyArgs != null) && rigidBodyArgs.OtherShape.IsSensor) return; //Don't do anything if a sensor
+
+            if (entitiesBeingShot.Equals(sender.GameObj)) //Is the thing getting shot the same thing the bullet is colliding with?
+            {
+                Log.Game.Write("success!");
+            }
         }
 
         void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args)
@@ -55,10 +62,7 @@ namespace Behavior
                 playerController = player.GetComponent<PlayerController>();
 
                 Creator = player;
-
-                Log.Game.Write("LinearVelocityToSet is {0}", LinearVelocityToSet);
-                Log.Game.Write("The velocity of this bullet is {0}", GameObj.GetComponent<RigidBody>().LinearVelocity);
-                Log.Game.Write("The position of this bullet is {0}", GameObj.Transform.Pos);
+                entitiesBeingShot = GameObj.ParentScene.FindGameObjects<EntityStats>();
 
                 rigidBody.LinearVelocity = LinearVelocityToSet;
 

@@ -569,7 +569,7 @@
       <active dataType="Bool">true</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2224647620">
-        <_items dataType="Array" type="Duality.Component[]" id="1059115332" length="4">
+        <_items dataType="Array" type="Duality.Component[]" id="1059115332">
           <item dataType="Struct" type="Duality.Components.Transform" id="2665083342">
             <active dataType="Bool">true</active>
             <angle dataType="Float">0</angle>
@@ -670,9 +670,15 @@
               <_version dataType="Int">7</_version>
             </shapes>
           </item>
+          <item dataType="Struct" type="Behavior.EntityStats" id="943052254">
+            <_x003C_CurrentHealth_x003E_k__BackingField dataType="Int">0</_x003C_CurrentHealth_x003E_k__BackingField>
+            <_x003C_MaxHealth_x003E_k__BackingField dataType="Int">50</_x003C_MaxHealth_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">304768410</gameobj>
+          </item>
         </_items>
-        <_size dataType="Int">3</_size>
-        <_version dataType="Int">7</_version>
+        <_size dataType="Int">4</_size>
+        <_version dataType="Int">8</_version>
       </compList>
       <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2388634006" surrogate="true">
         <header />
@@ -681,11 +687,13 @@
             <item dataType="ObjectRef">2122741390</item>
             <item dataType="ObjectRef">3652497482</item>
             <item dataType="ObjectRef">2606366108</item>
+            <item dataType="ObjectRef">808633728</item>
           </keys>
           <values dataType="Array" type="System.Object[]" id="1702087242">
             <item dataType="ObjectRef">2665083342</item>
             <item dataType="ObjectRef">1946934978</item>
             <item dataType="ObjectRef">3367544934</item>
+            <item dataType="ObjectRef">943052254</item>
           </values>
         </body>
       </compMap>

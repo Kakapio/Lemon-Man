@@ -14,8 +14,7 @@
         <member name="T:Behavior.HeldWeapon">
             <summary>
                 Gives the weapon object its basic behaviors, such as being attached to the player, and reflecting the sprite of the
-                currently held
-                item.
+                currently held item.
             </summary>
         </member>
         <member name="M:Behavior.HeldWeapon.FireWeapon">

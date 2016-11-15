@@ -22,7 +22,6 @@ namespace Behavior
         private PlayerController playerController;
         private RigidBody rigidBody;
         private Transform transform;
-        private IEnumerable<GameObject> entitiesBeingShot;
 
         public float Speed { get; set; } = 1;
         public Vector2 LinearVelocityToSet { get; set; }
@@ -38,9 +37,9 @@ namespace Behavior
             var rigidBodyArgs = args as RigidBodyCollisionEventArgs;
             if ((rigidBodyArgs != null) && rigidBodyArgs.OtherShape.IsSensor) return; //Don't do anything if a sensor
 
-            if (entitiesBeingShot.Equals(sender.GameObj)) //Is the thing getting shot the same thing the bullet is colliding with?
+            if (args.CollideWith == GameObj.ParentScene.FindGameObject<EntityStats>())
             {
-                Log.Game.Write("success!");
+                Log.Game.Write("Collided with a damageable object!");
             }
         }
 
@@ -62,17 +61,7 @@ namespace Behavior
                 playerController = player.GetComponent<PlayerController>();
 
                 Creator = player;
-                entitiesBeingShot = GameObj.ParentScene.FindGameObjects<EntityStats>();
-
                 rigidBody.LinearVelocity = LinearVelocityToSet;
-
-                /*
-                if (playerController.facingDirection == FacingDirection.right)
-                    //Change bullet direction based on player's direction.
-                    rigidBody.LinearVelocity = Vector2.FromAngleLength(transform.Angle, Speed);
-                else if (playerController.facingDirection == FacingDirection.left)
-                    rigidBody.LinearVelocity = Vector2.FromAngleLength(transform.Angle, Speed);
-                    */
             }
         }
 

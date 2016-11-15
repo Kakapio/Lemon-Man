@@ -160,7 +160,7 @@
                       <Y dataType="Float">0.1</Y>
                       <Z dataType="Float">-0.1</Z>
                     </_x003C_bulletSpawnOffset_x003E_k__BackingField>
-                    <_x003C_facingDirection_x003E_k__BackingField dataType="Enum" type="Player.FacingDirection" name="left" value="0" />
+                    <_x003C_facingDirection_x003E_k__BackingField dataType="Enum" type="Player.FacingDirection" name="Left" value="0" />
                     <_x003C_FiringDelay_x003E_k__BackingField dataType="Float">300</_x003C_FiringDelay_x003E_k__BackingField>
                     <_x003C_JumpHeight_x003E_k__BackingField dataType="Float">45</_x003C_JumpHeight_x003E_k__BackingField>
                     <_x003C_MoveSpeed_x003E_k__BackingField dataType="Float">72</_x003C_MoveSpeed_x003E_k__BackingField>
@@ -599,9 +599,9 @@
             <active dataType="Bool">true</active>
             <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
               <A dataType="Byte">255</A>
-              <B dataType="Byte">255</B>
+              <B dataType="Byte">0</B>
               <G dataType="Byte">255</G>
-              <R dataType="Byte">255</R>
+              <R dataType="Byte">6</R>
             </colorTint>
             <customMat />
             <flipMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
@@ -671,7 +671,7 @@
             </shapes>
           </item>
           <item dataType="Struct" type="Behavior.EntityStats" id="943052254">
-            <_x003C_CurrentHealth_x003E_k__BackingField dataType="Int">0</_x003C_CurrentHealth_x003E_k__BackingField>
+            <_x003C_CurrentHealth_x003E_k__BackingField dataType="Int">50</_x003C_CurrentHealth_x003E_k__BackingField>
             <_x003C_MaxHealth_x003E_k__BackingField dataType="Int">50</_x003C_MaxHealth_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">304768410</gameobj>

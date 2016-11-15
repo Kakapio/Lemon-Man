@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Duality;
 using Duality.Components;
-using Duality.Components.Physics;
 using Duality.Components.Renderers;
 using Duality.Input;
 using Duality.Resources;
@@ -13,8 +12,7 @@ namespace Behavior
 {
     /// <summary>
     ///     Gives the weapon object its basic behaviors, such as being attached to the player, and reflecting the sprite of the
-    ///     currently held
-    ///     item.
+    ///     currently held item.
     /// </summary>
     [RequiredComponent(typeof(SpriteRenderer))]
     [RequiredComponent(typeof(Transform))]
@@ -96,7 +94,7 @@ namespace Behavior
                     spriteRenderer.Flip = SpriteRenderer.FlipMode.None;
                     break;
 
-                case FacingDirection.left:
+                case FacingDirection.Left:
                     //Places weapon sprite on player, and flips it according to facing direction.
                     GameObj.Transform.Pos = new Vector3(player.Transform.Pos.X - weaponOffset.X,
                                                         player.Transform.Pos.Y + 3, -0.1f);
@@ -133,8 +131,8 @@ namespace Behavior
                 {
                     case FacingDirection.right:
                         bullet = prefabToBeFired.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X + BulletSpawnOffset.X,
-                                                                          GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f), 
-                                                                          GameObj.Transform.Angle, 0.5f);
+                                                                             GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f), 
+                                                                             GameObj.Transform.Angle, 0.5f);
 
                         bulletScript = bullet.GetComponent<PlayerBullet>();
 
@@ -145,10 +143,10 @@ namespace Behavior
                         bullet.GetComponent<PlayerBullet>().Creator = GameObj;
                         break;
 
-                    case FacingDirection.left:
+                    case FacingDirection.Left:
                         bullet = prefabToBeFired.Res.Instantiate(new Vector3(GameObj.Transform.Pos.X - BulletSpawnOffset.X,
-                                                                          GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
-                                                                          GameObj.Transform.Angle, 0.5f);
+                                                                             GameObj.Transform.Pos.Y + BulletSpawnOffset.Y, -0.1f),
+                                                                             GameObj.Transform.Angle, 0.5f);
 
                         bulletScript = bullet.GetComponent<PlayerBullet>();
 

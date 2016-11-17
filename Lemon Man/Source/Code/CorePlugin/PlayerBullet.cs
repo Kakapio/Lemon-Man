@@ -22,6 +22,8 @@ namespace Behavior
         private PlayerController playerController;
         private RigidBody rigidBody;
         private Transform transform;
+        private HeldWeapon heldWeapon; //Reference to weapon used by player
+        private const int BulletDamage = 3;
 
         public float Speed { get; set; } = 1;
         public Vector2 LinearVelocityToSet { get; set; }
@@ -37,9 +39,11 @@ namespace Behavior
             var rigidBodyArgs = args as RigidBodyCollisionEventArgs;
             if ((rigidBodyArgs != null) && rigidBodyArgs.OtherShape.IsSensor) return; //Don't do anything if a sensor
 
-            if (args.CollideWith == GameObj.ParentScene.FindGameObject<EntityStats>())
+            EntityStats stats = args.CollideWith.GetComponent<EntityStats>();
+            if (stats != null)
             {
-                Log.Game.Write("Collided with a damageable object!");
+                GameObj.DisposeLater();
+                stats.CurrentHealth -= BulletDamage;
             }
         }
 
@@ -62,6 +66,8 @@ namespace Behavior
 
                 Creator = player;
                 rigidBody.LinearVelocity = LinearVelocityToSet;
+
+                heldWeapon = GameObj.ParentScene.FindGameObject<HeldWeapon>().GetComponent<HeldWeapon>(); //Find heldWeapon and get a reference to it.
             }
         }
 

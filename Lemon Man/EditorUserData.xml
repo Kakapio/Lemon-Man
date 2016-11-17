@@ -2,7 +2,7 @@
 <UserData>
   <EditorApp>
     <Backups>true</Backups>
-    <Autosaves>ThirtyMinutes</Autosaves>
+    <Autosaves>TenMinutes</Autosaves>
     <FirstSession>false</FirstSession>
     <ActiveDocumentIndex>1</ActiveDocumentIndex>
   </EditorApp>

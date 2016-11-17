@@ -18,10 +18,11 @@ namespace Behavior
     [RequiredComponent(typeof(Transform))]
     public class HeldWeapon : Component, ICmpUpdatable, ICmpInitializable
     {
+        public Weapon CurrentWeapon;
+
         private ContentRef<Prefab> prefabToBeFired;
         private float firingDelay;
         private float firingDelayCounter;
-        private Weapon heldWeapon;
         private GameObject player;
         private SpriteRenderer spriteRenderer; //Spriterenderer of object, to allow sprite to change to held weapon.
         private Transform transform; //Transform of weapon, to be set to a position relative to player.
@@ -34,7 +35,7 @@ namespace Behavior
         {
             if (context == InitContext.Activate)
             {
-                heldWeapon = null;
+                CurrentWeapon = null;
                 spriteRenderer = GameObj.GetComponent<SpriteRenderer>();
                 transform = GameObj.GetComponent<Transform>();
                 player = GameObj.ParentScene.FindGameObject<PlayerController>();
@@ -69,7 +70,7 @@ namespace Behavior
             {
                 if (weapon.ID == weaponToChangeToID)
                 {
-                    heldWeapon = weapon;
+                    CurrentWeapon = weapon;
                     UpdateHeldWeaponComponents();
                 }
                 else
@@ -79,8 +80,8 @@ namespace Behavior
 
         private void UpdateHeldWeaponComponents()
         {
-            spriteRenderer.SharedMaterial.Res.MainTexture = heldWeapon.Sprite;
-            firingDelay = heldWeapon.RateOfFire * 100f;
+            spriteRenderer.SharedMaterial.Res.MainTexture = CurrentWeapon.Sprite;
+            firingDelay = CurrentWeapon.RateOfFire * 100f;
         }
 
         private void MoveWeaponWithPlayer()
@@ -112,13 +113,13 @@ namespace Behavior
         /// </summary>
         private void FireWeapon()
         {
-            for (var i = 0; i < heldWeapon.BurstCount; i++)
+            for (var i = 0; i < CurrentWeapon.BurstCount; i++)
             {
                 GameObject bullet;
                 PlayerBullet bulletScript;
                 var positiveNegativeOffset = MathF.Rnd.Next(0, 2); //Generate random value 0 or 1
                 positiveNegativeOffset = positiveNegativeOffset == 0 ? -1 : 1; //is positiveNegativeOffset equal to zero? Set it to 1. Otherwise set it to -1
-                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.NextFloat(0, heldWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
+                var bulletAngleOffset = MathF.DegToRad(MathF.Rnd.NextFloat(0, CurrentWeapon.Inaccuracy) * positiveNegativeOffset); //Generates offset in radians
 
                 /*switch (heldWeapon.TypeOfProjectile)
                 {

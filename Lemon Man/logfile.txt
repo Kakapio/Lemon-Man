@@ -116,11 +116,30 @@
 [Core] Msg:   ...done!
 [Core] Msg: Assembly loaded: FarseerDuality 4.1.1.0
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization.Primitives 4.0.0.0
 [Core] Msg:   Assembly loaded: System.Dynamic.Runtime 4.0.0.0
 [Core] Msg:   Assembly loaded: System.Runtime.Serialization 4.0.0.0
 [Core] Msg:   Assembly loaded: System.ObjectModel 4.0.0.0
-[Core] Msg:   Assembly loaded: Microsoft.VisualStudio.Debugger.Runtime 14.0.0.0
-[Core] Msg:   Assembly loaded: System.Configuration 4.0.0.0
+[Game] Msg: Gravity: 444.4445, jump velocity: 200
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\heldWeapon.Material.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Platform.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Platform.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Platform.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\TrumpStill.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Texture.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\goldenRevolver.Pixmap.res'
+[Core] Msg: Determining OpenGL context capabilities...
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
+[Game] Msg: LinearVelocityToSet is (-1.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, -1.00)
+[Game] Msg: The position of this bullet is (-6, -1.999999, -0.1)
+[Core] Msg: Assembly loaded: Microsoft.VisualStudio.Debugger.Runtime 14.0.0.0
+[Core] Msg: Assembly loaded: System.Configuration 4.0.0.0
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
+[Game] Msg: LinearVelocityToSet is (1.00, 0.00)
+[Game] Msg: The velocity of this bullet is (0.00, -1.00)
+[Game] Msg: The position of this bullet is (14.49429, -1.999999, -0.1)

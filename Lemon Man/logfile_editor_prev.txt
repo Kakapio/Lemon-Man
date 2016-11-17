@@ -171,14 +171,6 @@
 [Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\BasicEnemy.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\BasicEnemy.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\BasicEnemy.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Core] Wrn:   Can't parse enum value 'left' of Type 'FacingDirection'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
 [Core] Msg: Assembly loaded: Windows7.DesktopIntegration 1.0.0.0
 [Edit] Msg: Saving data...
 [Edit] Msg: Reloading core plugins...
@@ -189,13 +181,108 @@
 [Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
 [Edit] Msg: Restoring data...
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites & Spritesheets\Weapons\bullet.Pixmap.res'
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
-[Core] Wrn:   Can't parse enum value 'left' of Type 'FacingDirection'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
-[Core] Wrn:   Can't parse enum value 'bullet' of Type 'ProjectileType'. Using numerical value '0' instead.
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Game] Msg: A collision occurred between a bullet and damageable object!
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Wrn:       Found public fields in Component class 'HeldWeapon': Weapon CurrentWeapon. The usage of public fields is strongly discouraged in Component classes. Consider using properties instead.
+[Edit] Msg: Restoring data...
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Wrn:       Found public fields in Component class 'HeldWeapon': Weapon CurrentWeapon. The usage of public fields is strongly discouraged in Component classes. Consider using properties instead.
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerBullet.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Edit] Msg: Saving user data...
+[Core] Msg: Loading Resource 'Data\Levels\Beta.Scene.res'
 [Core] Msg: Shutting down GLControl (OpenTK)...
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
 [Core] Msg: Shutting down OpenAL (OpenTK)...

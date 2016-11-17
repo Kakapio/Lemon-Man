@@ -90,7 +90,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">4</_version>
+            <_version dataType="Int">12</_version>
           </shapes>
         </item>
         <item dataType="Struct" type="Behavior.PlayerBullet" id="2985482765">
@@ -182,7 +182,7 @@
                     <Y dataType="Float">0.1</Y>
                     <Z dataType="Float">-0.1</Z>
                   </_x003C_bulletSpawnOffset_x003E_k__BackingField>
-                  <_x003C_facingDirection_x003E_k__BackingField dataType="Enum" type="Player.FacingDirection" name="left" value="0" />
+                  <_x003C_facingDirection_x003E_k__BackingField dataType="Enum" type="Player.FacingDirection" name="Left" value="0" />
                   <_x003C_FiringDelay_x003E_k__BackingField dataType="Float">300</_x003C_FiringDelay_x003E_k__BackingField>
                   <_x003C_JumpHeight_x003E_k__BackingField dataType="Float">45</_x003C_JumpHeight_x003E_k__BackingField>
                   <_x003C_MoveSpeed_x003E_k__BackingField dataType="Float">72</_x003C_MoveSpeed_x003E_k__BackingField>
@@ -247,50 +247,45 @@
                           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                         </item>
                         <item dataType="Struct" type="Behavior.HeldWeapon" id="971760278">
-                          <_x003C_BulletSpawnOffset_x003E_k__BackingField dataType="Struct" type="Duality.Vector3">
-                            <X dataType="Float">4</X>
-                            <Y dataType="Float">-15</Y>
-                            <Z dataType="Float">-0.1</Z>
-                          </_x003C_BulletSpawnOffset_x003E_k__BackingField>
                           <active dataType="Bool">true</active>
-                          <bulletPrefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-                            <contentPath dataType="String">Data\Prefabs\PlayerBullet.Prefab.res</contentPath>
-                          </bulletPrefab>
-                          <bulletRigidBody />
+                          <BulletSpawnOffset dataType="Struct" type="Duality.Vector3">
+                            <X dataType="Float">4</X>
+                            <Y dataType="Float">-0.6</Y>
+                            <Z dataType="Float">-0.1</Z>
+                          </BulletSpawnOffset>
                           <firingDelay dataType="Float">200</firingDelay>
                           <firingDelayCounter dataType="Float">0</firingDelayCounter>
                           <gameobj dataType="ObjectRef">1343490243</gameobj>
                           <heldWeapon dataType="Struct" type="Misc.Weapon" id="4163130458">
-                            <_x003C_Accuracy_x003E_k__BackingField dataType="Int">3</_x003C_Accuracy_x003E_k__BackingField>
                             <_x003C_BurstCount_x003E_k__BackingField dataType="Int">1</_x003C_BurstCount_x003E_k__BackingField>
                             <_x003C_ID_x003E_k__BackingField dataType="Int">0</_x003C_ID_x003E_k__BackingField>
-                            <_x003C_Range_x003E_k__BackingField dataType="Int">1</_x003C_Range_x003E_k__BackingField>
+                            <_x003C_Inaccuracy_x003E_k__BackingField dataType="Int">0</_x003C_Inaccuracy_x003E_k__BackingField>
                             <_x003C_RateOfFire_x003E_k__BackingField dataType="Int">2</_x003C_RateOfFire_x003E_k__BackingField>
                             <_x003C_Slug_x003E_k__BackingField dataType="String">goldenRevolver</_x003C_Slug_x003E_k__BackingField>
                             <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
                               <contentPath dataType="String">Data\Sprites &amp; Spritesheets\Weapons\goldenRevolver.Texture.res</contentPath>
                             </_x003C_Sprite_x003E_k__BackingField>
                             <_x003C_Title_x003E_k__BackingField dataType="String">Golden Revolver</_x003C_Title_x003E_k__BackingField>
-                            <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="bullet" value="0" />
+                            <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="Bullet" value="0" />
                           </heldWeapon>
                           <player dataType="ObjectRef">787527030</player>
+                          <prefabToBeFired dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]" />
                           <spriteRenderer dataType="ObjectRef">2985656811</spriteRenderer>
                           <transform dataType="ObjectRef">3703805175</transform>
                           <weaponDatabase dataType="Struct" type="System.Collections.Generic.List`1[[Misc.Weapon]]" id="4071027130">
                             <_items dataType="Array" type="Misc.Weapon[]" id="4024946592" length="4">
                               <item dataType="ObjectRef">4163130458</item>
                               <item dataType="Struct" type="Misc.Weapon" id="362412764">
-                                <_x003C_Accuracy_x003E_k__BackingField dataType="Int">10</_x003C_Accuracy_x003E_k__BackingField>
                                 <_x003C_BurstCount_x003E_k__BackingField dataType="Int">5</_x003C_BurstCount_x003E_k__BackingField>
                                 <_x003C_ID_x003E_k__BackingField dataType="Int">1</_x003C_ID_x003E_k__BackingField>
-                                <_x003C_Range_x003E_k__BackingField dataType="Int">2</_x003C_Range_x003E_k__BackingField>
+                                <_x003C_Inaccuracy_x003E_k__BackingField dataType="Int">0</_x003C_Inaccuracy_x003E_k__BackingField>
                                 <_x003C_RateOfFire_x003E_k__BackingField dataType="Int">3</_x003C_RateOfFire_x003E_k__BackingField>
                                 <_x003C_Slug_x003E_k__BackingField dataType="String">shotgun</_x003C_Slug_x003E_k__BackingField>
                                 <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
                                   <contentPath dataType="String">Data\Sprites &amp; Spritesheets\Weapons\shotgun.Texture.res</contentPath>
                                 </_x003C_Sprite_x003E_k__BackingField>
                                 <_x003C_Title_x003E_k__BackingField dataType="String">Shotgun</_x003C_Title_x003E_k__BackingField>
-                                <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="bullet" value="0" />
+                                <_x003C_TypeOfProjectile_x003E_k__BackingField dataType="Enum" type="Misc.ProjectileType" name="Bullet" value="0" />
                               </item>
                             </_items>
                             <_size dataType="Int">2</_size>
@@ -302,7 +297,7 @@
                             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2378370529">
                               <_items dataType="Array" type="Duality.Component[]" id="587796846" length="4">
                                 <item dataType="Struct" type="Manager.WeaponDatabaseManager" id="3611639126">
-                                  <_x003C_weaponDatabase_x003E_k__BackingField dataType="ObjectRef">4071027130</_x003C_weaponDatabase_x003E_k__BackingField>
+                                  <_x003C_WeaponDatabase_x003E_k__BackingField dataType="ObjectRef">4071027130</_x003C_WeaponDatabase_x003E_k__BackingField>
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2834260959</gameobj>
                                 </item>
@@ -328,7 +323,7 @@
                               </header>
                               <body />
                             </identifier>
-                            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                             <name dataType="String">WorldManagers</name>
                             <parent />
                             <prefabLink />
@@ -364,7 +359,7 @@
                       </header>
                       <body />
                     </identifier>
-                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                    <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                     <name dataType="String">Weapon</name>
                     <parent />
                     <prefabLink />
@@ -409,13 +404,13 @@
               </header>
               <body />
             </identifier>
-            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
             <name dataType="String">Player</name>
             <parent />
             <prefabLink />
           </_x003C_Creator_x003E_k__BackingField>
           <_x003C_LinearVelocityToSet_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
-          <_x003C_Speed_x003E_k__BackingField dataType="Float">1</_x003C_Speed_x003E_k__BackingField>
+          <_x003C_Speed_x003E_k__BackingField dataType="Float">6</_x003C_Speed_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">4043529840</gameobj>
           <lifetimeCounter dataType="Float">0</lifetimeCounter>

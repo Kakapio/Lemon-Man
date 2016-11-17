@@ -4,19 +4,17 @@
     "Title": "Golden Revolver",
     "Slug": "goldenRevolver",
     "BurstCount": 1,
-    "TypeOfProjectile": "bullet",
-    "RateOfFire": 2,
-    "Range": 1,
-    "Accuracy": 3
+    "TypeOfProjectile": "Bullet",
+    "RateOfFire": 3,
+    "Inaccuracy": 3
   },
   {
     "ID": 1,
     "Title": "Shotgun",
     "Slug": "shotgun",
     "BurstCount": 5,
-    "TypeOfProjectile": "bullet",
-    "RateOfFire": 3,
-    "Range": 2,
-    "Accuracy": 10
+    "TypeOfProjectile": "Bullet",
+    "RateOfFire": 5,
+    "Inaccuracy": 6
   }
 ]

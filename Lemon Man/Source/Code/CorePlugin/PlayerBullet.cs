@@ -1,4 +1,5 @@
-﻿using Duality;
+﻿using System.Collections.Generic;
+using Duality;
 using Duality.Components;
 using Duality.Components.Physics;
 using Duality.Components.Renderers;
@@ -21,6 +22,8 @@ namespace Behavior
         private PlayerController playerController;
         private RigidBody rigidBody;
         private Transform transform;
+        private HeldWeapon heldWeapon; //Reference to weapon used by player
+        private const int BulletDamage = 3;
 
         public float Speed { get; set; } = 1;
         public Vector2 LinearVelocityToSet { get; set; }
@@ -35,6 +38,13 @@ namespace Behavior
             //We cast to RigidBodyCollisionEventArgs to get access to the info about the shapes involved.
             var rigidBodyArgs = args as RigidBodyCollisionEventArgs;
             if ((rigidBodyArgs != null) && rigidBodyArgs.OtherShape.IsSensor) return; //Don't do anything if a sensor
+
+            EntityStats stats = args.CollideWith.GetComponent<EntityStats>();
+            if (stats != null)
+            {
+                GameObj.DisposeLater();
+                stats.CurrentHealth -= BulletDamage;
+            }
         }
 
         void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args)
@@ -55,20 +65,9 @@ namespace Behavior
                 playerController = player.GetComponent<PlayerController>();
 
                 Creator = player;
-
-                Log.Game.Write("LinearVelocityToSet is {0}", LinearVelocityToSet);
-                Log.Game.Write("The velocity of this bullet is {0}", GameObj.GetComponent<RigidBody>().LinearVelocity);
-                Log.Game.Write("The position of this bullet is {0}", GameObj.Transform.Pos);
-
                 rigidBody.LinearVelocity = LinearVelocityToSet;
 
-                /*
-                if (playerController.facingDirection == FacingDirection.right)
-                    //Change bullet direction based on player's direction.
-                    rigidBody.LinearVelocity = Vector2.FromAngleLength(transform.Angle, Speed);
-                else if (playerController.facingDirection == FacingDirection.left)
-                    rigidBody.LinearVelocity = Vector2.FromAngleLength(transform.Angle, Speed);
-                    */
+                heldWeapon = GameObj.ParentScene.FindGameObject<HeldWeapon>().GetComponent<HeldWeapon>(); //Find heldWeapon and get a reference to it.
             }
         }
 

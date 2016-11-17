@@ -8,7 +8,7 @@ namespace Player
 {
     public enum FacingDirection
     {
-        left,
+        Left,
         right
     }
 
@@ -47,9 +47,8 @@ namespace Player
                 return;
 
             spriteRenderer = GameObj.GetComponent<SpriteRenderer>();
-            gravity = 2*JumpHeight/TimeToJumpApex/TimeToJumpApex;
-            jumpVelocity = MathF.Abs(gravity)*TimeToJumpApex;
-            Log.Game.Write(string.Format("Gravity: {0}, jump velocity: {1}", gravity, jumpVelocity));
+            gravity = 2 * JumpHeight / TimeToJumpApex / TimeToJumpApex;
+            jumpVelocity = MathF.Abs(gravity) * TimeToJumpApex;
             heldWeapon = GameObj.ParentScene.FindGameObject<HeldWeapon>();
         }
 
@@ -67,7 +66,7 @@ namespace Player
             if (DualityApp.Keyboard[Key.Left])
             {
                 input.X = -1;
-                facingDirection = FacingDirection.left;
+                facingDirection = FacingDirection.Left;
             }
             else if (DualityApp.Keyboard[Key.Right])
             {
@@ -91,7 +90,7 @@ namespace Player
 
         private void UpdateSprite()
         {
-            if (facingDirection == FacingDirection.left)
+            if (facingDirection == FacingDirection.Left)
                 spriteRenderer.Flip = SpriteRenderer.FlipMode.Horizontal;
             else if (facingDirection == FacingDirection.right)
                 spriteRenderer.Flip = SpriteRenderer.FlipMode.None;

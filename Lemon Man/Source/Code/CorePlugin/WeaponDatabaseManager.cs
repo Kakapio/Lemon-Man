@@ -12,7 +12,7 @@ namespace Manager
     /// </summary>
     public class WeaponDatabaseManager : Component, ICmpInitializable
     {
-        public List<Weapon> weaponDatabase { get; private set; }
+        public List<Weapon> WeaponDatabase { get; private set; }
 
         void ICmpInitializable.OnInit(InitContext context)
         {
@@ -31,9 +31,9 @@ namespace Manager
                 using (var r = new StreamReader(s)) //Declares new reader
                 {
                     var json = r.ReadToEnd(); //Reads 'r' and its stream (s) to the end of the file.
-                    weaponDatabase = JsonConvert.DeserializeObject<List<Weapon>>(json);
+                    WeaponDatabase = JsonConvert.DeserializeObject<List<Weapon>>(json);
                         //Json.NET magic to place items from file
-                } //into list.
+                }       //into list.
             }
         }
     }
